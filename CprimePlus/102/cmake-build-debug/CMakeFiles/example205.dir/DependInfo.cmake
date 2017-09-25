@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/CLionProject/CprimePlus/102/main.c" "D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/example102.dir/main.c.obj"
+  "D:/CLionProject/CprimePlus/102/fathm_ft.c" "D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/example205.dir/fathm_ft.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,5 +4,5 @@ int main(void)
 {
     printf("concrete contains gravel and cements.\n");
     getchar();
-    return 0;
+    return 2;
 }
