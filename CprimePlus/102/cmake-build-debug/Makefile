@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 102
+# Target rules for targets named example102
 
 # Build rule for target.
-102: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 102
-.PHONY : 102
+example102: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 example102
+.PHONY : example102
 
 # fast build rule for target.
-102/fast:
-	$(MAKE) -f CMakeFiles\102.dir\build.make CMakeFiles/102.dir/build
-.PHONY : 102/fast
+example102/fast:
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/build
+.PHONY : example102/fast
 
 main.obj: main.c.obj
 
@@ -128,7 +128,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\102.dir\build.make CMakeFiles/102.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +137,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\102.dir\build.make CMakeFiles/102.dir/main.c.i
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,8 +146,35 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\102.dir\build.make CMakeFiles/102.dir/main.c.s
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.s
 .PHONY : main.c.s
+
+main201.obj: main201.c.obj
+
+.PHONY : main201.obj
+
+# target to build an object file
+main201.c.obj:
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main201.c.obj
+.PHONY : main201.c.obj
+
+main201.i: main201.c.i
+
+.PHONY : main201.i
+
+# target to preprocess a source file
+main201.c.i:
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main201.c.i
+.PHONY : main201.c.i
+
+main201.s: main201.c.s
+
+.PHONY : main201.s
+
+# target to generate assembly for a file
+main201.c.s:
+	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main201.c.s
+.PHONY : main201.c.s
 
 # Help Target
 help:
@@ -155,12 +182,15 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... 102
+	@echo ... example102
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main201.obj
+	@echo ... main201.i
+	@echo ... main201.s
 .PHONY : help
 
 
