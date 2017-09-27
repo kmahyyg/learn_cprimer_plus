@@ -148,6 +148,19 @@ example205/fast:
 	$(MAKE) -f CMakeFiles\example205.dir\build.make CMakeFiles/example205.dir/build
 .PHONY : example205/fast
 
+#=============================================================================
+# Target rules for targets named example206
+
+# Build rule for target.
+example206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 example206
+.PHONY : example206
+
+# fast build rule for target.
+example206/fast:
+	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/build
+.PHONY : example206/fast
+
 fathm_ft.obj: fathm_ft.c.obj
 
 .PHONY : fathm_ft.obj
@@ -229,6 +242,33 @@ main201.c.s:
 	$(MAKE) -f CMakeFiles\example201.dir\build.make CMakeFiles/example201.dir/main201.c.s
 .PHONY : main201.c.s
 
+two_func.obj: two_func.c.obj
+
+.PHONY : two_func.obj
+
+# target to build an object file
+two_func.c.obj:
+	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.obj
+.PHONY : two_func.c.obj
+
+two_func.i: two_func.c.i
+
+.PHONY : two_func.i
+
+# target to preprocess a source file
+two_func.c.i:
+	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.i
+.PHONY : two_func.c.i
+
+two_func.s: two_func.c.s
+
+.PHONY : two_func.s
+
+# target to generate assembly for a file
+two_func.c.s:
+	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.s
+.PHONY : two_func.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -238,6 +278,7 @@ help:
 	@echo ... example201
 	@echo ... example102
 	@echo ... example205
+	@echo ... example206
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fathm_ft.obj
@@ -249,6 +290,9 @@ help:
 	@echo ... main201.obj
 	@echo ... main201.i
 	@echo ... main201.s
+	@echo ... two_func.obj
+	@echo ... two_func.i
+	@echo ... two_func.s
 .PHONY : help
 
 
