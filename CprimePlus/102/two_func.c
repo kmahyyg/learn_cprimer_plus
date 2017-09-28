@@ -4,17 +4,17 @@
 
 #include <stdio.h>
 
-void bulter(void);
+void bulter(void);    // tell compiler this func will be used in the future
 int main(void)
 {
     printf("I will summon the bulter function.\n");
-    bulter();
+    bulter();          // call this new func
     printf("Yes.Bring me some tea and rewriteable DVDs.\n");
-    getchar();
+    getchar();         // wait for a new input
     return 0;
 }
 
-void bulter(void)
+void bulter(void)    // define a new func
 {
-    printf("You rang ,sir?\n");
+    printf("You rang,sir?\n");
 }
