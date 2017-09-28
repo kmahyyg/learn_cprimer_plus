@@ -10,8 +10,9 @@ int main(void)
     int n,n2,n3;
     n = 5;
     n2 = n*n;
-    n3 = n2*n2;
-    printf("n = %d, n squared = %d, n cubed = %d \n", n, n2,n3);
+    n3 = n2 * n;      // If compiler tell you lack of ; , please check the last line
+    printf("n = %d, n squared = %d, n cubed = %d \n", n, n2,
+           n3);    // cubed means ^3 , you can only check logical error yourself
     getchar();
     return 0;
 }

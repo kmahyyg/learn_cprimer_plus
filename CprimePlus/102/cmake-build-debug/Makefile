@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\CLionProject\CprimePlus\102\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,69 +110,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example201
+# Target rules for targets named exp201
 
 # Build rule for target.
-example201: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 example201
-.PHONY : example201
+exp201: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp201
+.PHONY : exp201
 
 # fast build rule for target.
-example201/fast:
-	$(MAKE) -f CMakeFiles\example201.dir\build.make CMakeFiles/example201.dir/build
-.PHONY : example201/fast
+exp201/fast:
+	$(MAKE) -f CMakeFiles\exp201.dir\build.make CMakeFiles/exp201.dir/build
+.PHONY : exp201/fast
 
 #=============================================================================
-# Target rules for targets named example102
+# Target rules for targets named exp102
 
 # Build rule for target.
-example102: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 example102
-.PHONY : example102
+exp102: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp102
+.PHONY : exp102
 
 # fast build rule for target.
-example102/fast:
-	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/build
-.PHONY : example102/fast
+exp102/fast:
+	$(MAKE) -f CMakeFiles\exp102.dir\build.make CMakeFiles/exp102.dir/build
+.PHONY : exp102/fast
 
 #=============================================================================
-# Target rules for targets named example205
+# Target rules for targets named exp205
 
 # Build rule for target.
-example205: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 example205
-.PHONY : example205
+exp205: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp205
+.PHONY : exp205
 
 # fast build rule for target.
-example205/fast:
-	$(MAKE) -f CMakeFiles\example205.dir\build.make CMakeFiles/example205.dir/build
-.PHONY : example205/fast
+exp205/fast:
+	$(MAKE) -f CMakeFiles\exp205.dir\build.make CMakeFiles/exp205.dir/build
+.PHONY : exp205/fast
 
 #=============================================================================
-# Target rules for targets named example206
+# Target rules for targets named exp206
 
 # Build rule for target.
-example206: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 example206
-.PHONY : example206
+exp206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp206
+.PHONY : exp206
 
 # fast build rule for target.
-example206/fast:
-	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/build
-.PHONY : example206/fast
+exp206/fast:
+	$(MAKE) -f CMakeFiles\exp206.dir\build.make CMakeFiles/exp206.dir/build
+.PHONY : exp206/fast
 
 #=============================================================================
-# Target rules for targets named example207
+# Target rules for targets named exp207
 
 # Build rule for target.
-example207: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 example207
-.PHONY : example207
+exp207: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp207
+.PHONY : exp207
 
 # fast build rule for target.
-example207/fast:
-	$(MAKE) -f CMakeFiles\example207.dir\build.make CMakeFiles/example207.dir/build
-.PHONY : example207/fast
+exp207/fast:
+	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/build
+.PHONY : exp207/fast
+
+#=============================================================================
+# Target rules for targets named prac2
+
+# Build rule for target.
+prac2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2
+.PHONY : prac2
+
+# fast build rule for target.
+prac2/fast:
+	$(MAKE) -f CMakeFiles\prac2.dir\build.make CMakeFiles/prac2.dir/build
+.PHONY : prac2/fast
 
 fathm_ft.obj: fathm_ft.c.obj
 
@@ -180,7 +193,7 @@ fathm_ft.obj: fathm_ft.c.obj
 
 # target to build an object file
 fathm_ft.c.obj:
-	$(MAKE) -f CMakeFiles\example205.dir\build.make CMakeFiles/example205.dir/fathm_ft.c.obj
+	$(MAKE) -f CMakeFiles\exp205.dir\build.make CMakeFiles/exp205.dir/fathm_ft.c.obj
 .PHONY : fathm_ft.c.obj
 
 fathm_ft.i: fathm_ft.c.i
@@ -189,7 +202,7 @@ fathm_ft.i: fathm_ft.c.i
 
 # target to preprocess a source file
 fathm_ft.c.i:
-	$(MAKE) -f CMakeFiles\example205.dir\build.make CMakeFiles/example205.dir/fathm_ft.c.i
+	$(MAKE) -f CMakeFiles\exp205.dir\build.make CMakeFiles/exp205.dir/fathm_ft.c.i
 .PHONY : fathm_ft.c.i
 
 fathm_ft.s: fathm_ft.c.s
@@ -198,7 +211,7 @@ fathm_ft.s: fathm_ft.c.s
 
 # target to generate assembly for a file
 fathm_ft.c.s:
-	$(MAKE) -f CMakeFiles\example205.dir\build.make CMakeFiles/example205.dir/fathm_ft.c.s
+	$(MAKE) -f CMakeFiles\exp205.dir\build.make CMakeFiles/exp205.dir/fathm_ft.c.s
 .PHONY : fathm_ft.c.s
 
 main.obj: main.c.obj
@@ -207,7 +220,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\exp102.dir\build.make CMakeFiles/exp102.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -216,7 +229,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.i
+	$(MAKE) -f CMakeFiles\exp102.dir\build.make CMakeFiles/exp102.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -225,7 +238,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\example102.dir\build.make CMakeFiles/example102.dir/main.c.s
+	$(MAKE) -f CMakeFiles\exp102.dir\build.make CMakeFiles/exp102.dir/main.c.s
 .PHONY : main.c.s
 
 main201.obj: main201.c.obj
@@ -234,7 +247,7 @@ main201.obj: main201.c.obj
 
 # target to build an object file
 main201.c.obj:
-	$(MAKE) -f CMakeFiles\example201.dir\build.make CMakeFiles/example201.dir/main201.c.obj
+	$(MAKE) -f CMakeFiles\exp201.dir\build.make CMakeFiles/exp201.dir/main201.c.obj
 .PHONY : main201.c.obj
 
 main201.i: main201.c.i
@@ -243,7 +256,7 @@ main201.i: main201.c.i
 
 # target to preprocess a source file
 main201.c.i:
-	$(MAKE) -f CMakeFiles\example201.dir\build.make CMakeFiles/example201.dir/main201.c.i
+	$(MAKE) -f CMakeFiles\exp201.dir\build.make CMakeFiles/exp201.dir/main201.c.i
 .PHONY : main201.c.i
 
 main201.s: main201.c.s
@@ -252,7 +265,7 @@ main201.s: main201.c.s
 
 # target to generate assembly for a file
 main201.c.s:
-	$(MAKE) -f CMakeFiles\example201.dir\build.make CMakeFiles/example201.dir/main201.c.s
+	$(MAKE) -f CMakeFiles\exp201.dir\build.make CMakeFiles/exp201.dir/main201.c.s
 .PHONY : main201.c.s
 
 nogood.obj: nogood.c.obj
@@ -261,7 +274,7 @@ nogood.obj: nogood.c.obj
 
 # target to build an object file
 nogood.c.obj:
-	$(MAKE) -f CMakeFiles\example207.dir\build.make CMakeFiles/example207.dir/nogood.c.obj
+	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/nogood.c.obj
 .PHONY : nogood.c.obj
 
 nogood.i: nogood.c.i
@@ -270,7 +283,7 @@ nogood.i: nogood.c.i
 
 # target to preprocess a source file
 nogood.c.i:
-	$(MAKE) -f CMakeFiles\example207.dir\build.make CMakeFiles/example207.dir/nogood.c.i
+	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/nogood.c.i
 .PHONY : nogood.c.i
 
 nogood.s: nogood.c.s
@@ -279,8 +292,35 @@ nogood.s: nogood.c.s
 
 # target to generate assembly for a file
 nogood.c.s:
-	$(MAKE) -f CMakeFiles\example207.dir\build.make CMakeFiles/example207.dir/nogood.c.s
+	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/nogood.c.s
 .PHONY : nogood.c.s
+
+practice_c2.obj: practice_c2.c.obj
+
+.PHONY : practice_c2.obj
+
+# target to build an object file
+practice_c2.c.obj:
+	$(MAKE) -f CMakeFiles\prac2.dir\build.make CMakeFiles/prac2.dir/practice_c2.c.obj
+.PHONY : practice_c2.c.obj
+
+practice_c2.i: practice_c2.c.i
+
+.PHONY : practice_c2.i
+
+# target to preprocess a source file
+practice_c2.c.i:
+	$(MAKE) -f CMakeFiles\prac2.dir\build.make CMakeFiles/prac2.dir/practice_c2.c.i
+.PHONY : practice_c2.c.i
+
+practice_c2.s: practice_c2.c.s
+
+.PHONY : practice_c2.s
+
+# target to generate assembly for a file
+practice_c2.c.s:
+	$(MAKE) -f CMakeFiles\prac2.dir\build.make CMakeFiles/prac2.dir/practice_c2.c.s
+.PHONY : practice_c2.c.s
 
 two_func.obj: two_func.c.obj
 
@@ -288,7 +328,7 @@ two_func.obj: two_func.c.obj
 
 # target to build an object file
 two_func.c.obj:
-	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.obj
+	$(MAKE) -f CMakeFiles\exp206.dir\build.make CMakeFiles/exp206.dir/two_func.c.obj
 .PHONY : two_func.c.obj
 
 two_func.i: two_func.c.i
@@ -297,7 +337,7 @@ two_func.i: two_func.c.i
 
 # target to preprocess a source file
 two_func.c.i:
-	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.i
+	$(MAKE) -f CMakeFiles\exp206.dir\build.make CMakeFiles/exp206.dir/two_func.c.i
 .PHONY : two_func.c.i
 
 two_func.s: two_func.c.s
@@ -306,7 +346,7 @@ two_func.s: two_func.c.s
 
 # target to generate assembly for a file
 two_func.c.s:
-	$(MAKE) -f CMakeFiles\example206.dir\build.make CMakeFiles/example206.dir/two_func.c.s
+	$(MAKE) -f CMakeFiles\exp206.dir\build.make CMakeFiles/exp206.dir/two_func.c.s
 .PHONY : two_func.c.s
 
 # Help Target
@@ -315,13 +355,14 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... example201
-	@echo ... example102
-	@echo ... example205
-	@echo ... example206
-	@echo ... example207
-	@echo ... edit_cache
+	@echo ... exp201
+	@echo ... exp102
 	@echo ... rebuild_cache
+	@echo ... exp205
+	@echo ... exp206
+	@echo ... exp207
+	@echo ... prac2
+	@echo ... edit_cache
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
@@ -334,6 +375,9 @@ help:
 	@echo ... nogood.obj
 	@echo ... nogood.i
 	@echo ... nogood.s
+	@echo ... practice_c2.obj
+	@echo ... practice_c2.i
+	@echo ... practice_c2.s
 	@echo ... two_func.obj
 	@echo ... two_func.i
 	@echo ... two_func.s
