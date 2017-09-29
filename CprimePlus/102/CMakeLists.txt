@@ -9,6 +9,6 @@ add_executable(exp201 main201.c)
 add_executable(exp205 fathm_ft.c)
 add_executable(exp206 two_func.c)
 add_executable(exp207 nogood.c)
-add_executable(prac2 practice_c2.c)
+add_executable(prac2_1 practice_c2_1.c)
 
 # add_executable(exp102 ${SOURCE_FILES})
