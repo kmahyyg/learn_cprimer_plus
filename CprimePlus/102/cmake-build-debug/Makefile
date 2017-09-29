@@ -187,6 +187,19 @@ exp207/fast:
 	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/build
 .PHONY : exp207/fast
 
+#=============================================================================
+# Target rules for targets named prac2_4
+
+# Build rule for target.
+prac2_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2_4
+.PHONY : prac2_4
+
+# fast build rule for target.
+prac2_4/fast:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
+.PHONY : prac2_4/fast
+
 fathm_ft.obj: fathm_ft.c.obj
 
 .PHONY : fathm_ft.obj
@@ -322,6 +335,33 @@ practice_c2_1.c.s:
 	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/practice_c2_1.c.s
 .PHONY : practice_c2_1.c.s
 
+practice_c2_4.obj: practice_c2_4.c.obj
+
+.PHONY : practice_c2_4.obj
+
+# target to build an object file
+practice_c2_4.c.obj:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/practice_c2_4.c.obj
+.PHONY : practice_c2_4.c.obj
+
+practice_c2_4.i: practice_c2_4.c.i
+
+.PHONY : practice_c2_4.i
+
+# target to preprocess a source file
+practice_c2_4.c.i:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/practice_c2_4.c.i
+.PHONY : practice_c2_4.c.i
+
+practice_c2_4.s: practice_c2_4.c.s
+
+.PHONY : practice_c2_4.s
+
+# target to generate assembly for a file
+practice_c2_4.c.s:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/practice_c2_4.c.s
+.PHONY : practice_c2_4.c.s
+
 two_func.obj: two_func.c.obj
 
 .PHONY : two_func.obj
@@ -363,6 +403,7 @@ help:
 	@echo ... prac2_1
 	@echo ... exp207
 	@echo ... edit_cache
+	@echo ... prac2_4
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
@@ -378,6 +419,9 @@ help:
 	@echo ... practice_c2_1.obj
 	@echo ... practice_c2_1.i
 	@echo ... practice_c2_1.s
+	@echo ... practice_c2_4.obj
+	@echo ... practice_c2_4.i
+	@echo ... practice_c2_4.s
 	@echo ... two_func.obj
 	@echo ... two_func.i
 	@echo ... two_func.s
