@@ -227,17 +227,43 @@ exp301/fast:
 .PHONY : exp301/fast
 
 #=============================================================================
-# Target rules for targets named geekl1
+# Target rules for targets named geekl101
 
 # Build rule for target.
-geekl1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 geekl1
-.PHONY : geekl1
+geekl101: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl101
+.PHONY : geekl101
 
 # fast build rule for target.
-geekl1/fast:
-	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/build
-.PHONY : geekl1/fast
+geekl101/fast:
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/build
+.PHONY : geekl101/fast
+
+#=============================================================================
+# Target rules for targets named geekl102
+
+# Build rule for target.
+geekl102: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl102
+.PHONY : geekl102
+
+# fast build rule for target.
+geekl102/fast:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/build
+.PHONY : geekl102/fast
+
+#=============================================================================
+# Target rules for targets named geekl103
+
+# Build rule for target.
+geekl103: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl103
+.PHONY : geekl103
+
+# fast build rule for target.
+geekl103/fast:
+	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/build
+.PHONY : geekl103/fast
 
 #=============================================================================
 # Target rules for targets named hworld
@@ -285,7 +311,7 @@ geekunion1.obj: geekunion1.c.obj
 
 # target to build an object file
 geekunion1.c.obj:
-	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.obj
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/geekunion1.c.obj
 .PHONY : geekunion1.c.obj
 
 geekunion1.i: geekunion1.c.i
@@ -294,7 +320,7 @@ geekunion1.i: geekunion1.c.i
 
 # target to preprocess a source file
 geekunion1.c.i:
-	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.i
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/geekunion1.c.i
 .PHONY : geekunion1.c.i
 
 geekunion1.s: geekunion1.c.s
@@ -303,8 +329,62 @@ geekunion1.s: geekunion1.c.s
 
 # target to generate assembly for a file
 geekunion1.c.s:
-	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.s
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/geekunion1.c.s
 .PHONY : geekunion1.c.s
+
+geekunion2.obj: geekunion2.c.obj
+
+.PHONY : geekunion2.obj
+
+# target to build an object file
+geekunion2.c.obj:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/geekunion2.c.obj
+.PHONY : geekunion2.c.obj
+
+geekunion2.i: geekunion2.c.i
+
+.PHONY : geekunion2.i
+
+# target to preprocess a source file
+geekunion2.c.i:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/geekunion2.c.i
+.PHONY : geekunion2.c.i
+
+geekunion2.s: geekunion2.c.s
+
+.PHONY : geekunion2.s
+
+# target to generate assembly for a file
+geekunion2.c.s:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/geekunion2.c.s
+.PHONY : geekunion2.c.s
+
+geekunion3.obj: geekunion3.c.obj
+
+.PHONY : geekunion3.obj
+
+# target to build an object file
+geekunion3.c.obj:
+	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/geekunion3.c.obj
+.PHONY : geekunion3.c.obj
+
+geekunion3.i: geekunion3.c.i
+
+.PHONY : geekunion3.i
+
+# target to preprocess a source file
+geekunion3.c.i:
+	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/geekunion3.c.i
+.PHONY : geekunion3.c.i
+
+geekunion3.s: geekunion3.c.s
+
+.PHONY : geekunion3.s
+
+# target to generate assembly for a file
+geekunion3.c.s:
+	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/geekunion3.c.s
+.PHONY : geekunion3.c.s
 
 helloworld.obj: helloworld.c.obj
 
@@ -564,7 +644,9 @@ help:
 	@echo ... exp207
 	@echo ... prac2_4
 	@echo ... exp301
-	@echo ... geekl1
+	@echo ... geekl101
+	@echo ... geekl102
+	@echo ... geekl103
 	@echo ... hworld
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -574,6 +656,12 @@ help:
 	@echo ... geekunion1.obj
 	@echo ... geekunion1.i
 	@echo ... geekunion1.s
+	@echo ... geekunion2.obj
+	@echo ... geekunion2.i
+	@echo ... geekunion2.s
+	@echo ... geekunion3.obj
+	@echo ... geekunion3.i
+	@echo ... geekunion3.s
 	@echo ... helloworld.obj
 	@echo ... helloworld.i
 	@echo ... helloworld.s

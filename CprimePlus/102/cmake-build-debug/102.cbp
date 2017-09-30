@@ -413,8 +413,8 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="geekl1">
-				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="geekl101">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl101.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -429,14 +429,14 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl1"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl101"/>
 					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="geekl1/fast">
-				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="geekl101/fast">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl101.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -451,7 +451,95 @@
 					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl1/fast"/>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl101/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geekl102">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl102.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl102"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geekl102/fast">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl102.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl102/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geekl103">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl103.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl103"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geekl103/fast">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/geekl103.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 geekl103/fast"/>
 					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -526,7 +614,13 @@
 			<Option target="exp205"/>
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/geekunion1.c">
-			<Option target="geekl1"/>
+			<Option target="geekl101"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/CprimePlus/102/geekunion2.c">
+			<Option target="geekl102"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/CprimePlus/102/geekunion3.c">
+			<Option target="geekl103"/>
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/helloworld.c">
 			<Option target="hworld"/>
