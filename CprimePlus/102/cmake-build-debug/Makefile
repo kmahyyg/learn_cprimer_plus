@@ -136,6 +136,19 @@ exp102/fast:
 .PHONY : exp102/fast
 
 #=============================================================================
+# Target rules for targets named prac2_3
+
+# Build rule for target.
+prac2_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2_3
+.PHONY : prac2_3
+
+# fast build rule for target.
+prac2_3/fast:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/build
+.PHONY : prac2_3/fast
+
+#=============================================================================
 # Target rules for targets named exp205
 
 # Build rule for target.
@@ -213,6 +226,32 @@ exp301/fast:
 	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/build
 .PHONY : exp301/fast
 
+#=============================================================================
+# Target rules for targets named geekl1
+
+# Build rule for target.
+geekl1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl1
+.PHONY : geekl1
+
+# fast build rule for target.
+geekl1/fast:
+	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/build
+.PHONY : geekl1/fast
+
+#=============================================================================
+# Target rules for targets named hworld
+
+# Build rule for target.
+hworld: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 hworld
+.PHONY : hworld
+
+# fast build rule for target.
+hworld/fast:
+	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/build
+.PHONY : hworld/fast
+
 fathm_ft.obj: fathm_ft.c.obj
 
 .PHONY : fathm_ft.obj
@@ -239,6 +278,60 @@ fathm_ft.s: fathm_ft.c.s
 fathm_ft.c.s:
 	$(MAKE) -f CMakeFiles\exp205.dir\build.make CMakeFiles/exp205.dir/fathm_ft.c.s
 .PHONY : fathm_ft.c.s
+
+geekunion1.obj: geekunion1.c.obj
+
+.PHONY : geekunion1.obj
+
+# target to build an object file
+geekunion1.c.obj:
+	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.obj
+.PHONY : geekunion1.c.obj
+
+geekunion1.i: geekunion1.c.i
+
+.PHONY : geekunion1.i
+
+# target to preprocess a source file
+geekunion1.c.i:
+	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.i
+.PHONY : geekunion1.c.i
+
+geekunion1.s: geekunion1.c.s
+
+.PHONY : geekunion1.s
+
+# target to generate assembly for a file
+geekunion1.c.s:
+	$(MAKE) -f CMakeFiles\geekl1.dir\build.make CMakeFiles/geekl1.dir/geekunion1.c.s
+.PHONY : geekunion1.c.s
+
+helloworld.obj: helloworld.c.obj
+
+.PHONY : helloworld.obj
+
+# target to build an object file
+helloworld.c.obj:
+	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/helloworld.c.obj
+.PHONY : helloworld.c.obj
+
+helloworld.i: helloworld.c.i
+
+.PHONY : helloworld.i
+
+# target to preprocess a source file
+helloworld.c.i:
+	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/helloworld.c.i
+.PHONY : helloworld.c.i
+
+helloworld.s: helloworld.c.s
+
+.PHONY : helloworld.s
+
+# target to generate assembly for a file
+helloworld.c.s:
+	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/helloworld.c.s
+.PHONY : helloworld.c.s
 
 main.obj: main.c.obj
 
@@ -375,6 +468,33 @@ practice_c2_1.c.s:
 	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/practice_c2_1.c.s
 .PHONY : practice_c2_1.c.s
 
+practice_c2_3.obj: practice_c2_3.c.obj
+
+.PHONY : practice_c2_3.obj
+
+# target to build an object file
+practice_c2_3.c.obj:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/practice_c2_3.c.obj
+.PHONY : practice_c2_3.c.obj
+
+practice_c2_3.i: practice_c2_3.c.i
+
+.PHONY : practice_c2_3.i
+
+# target to preprocess a source file
+practice_c2_3.c.i:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/practice_c2_3.c.i
+.PHONY : practice_c2_3.c.i
+
+practice_c2_3.s: practice_c2_3.c.s
+
+.PHONY : practice_c2_3.s
+
+# target to generate assembly for a file
+practice_c2_3.c.s:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/practice_c2_3.c.s
+.PHONY : practice_c2_3.c.s
+
 practice_c2_4.obj: practice_c2_4.c.obj
 
 .PHONY : practice_c2_4.obj
@@ -437,17 +557,26 @@ help:
 	@echo ... depend
 	@echo ... exp201
 	@echo ... exp102
+	@echo ... prac2_3
 	@echo ... exp205
 	@echo ... exp206
 	@echo ... prac2_1
 	@echo ... exp207
-	@echo ... edit_cache
 	@echo ... prac2_4
 	@echo ... exp301
+	@echo ... geekl1
+	@echo ... hworld
+	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
+	@echo ... geekunion1.obj
+	@echo ... geekunion1.i
+	@echo ... geekunion1.s
+	@echo ... helloworld.obj
+	@echo ... helloworld.i
+	@echo ... helloworld.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -463,6 +592,9 @@ help:
 	@echo ... practice_c2_1.obj
 	@echo ... practice_c2_1.i
 	@echo ... practice_c2_1.s
+	@echo ... practice_c2_3.obj
+	@echo ... practice_c2_3.i
+	@echo ... practice_c2_3.s
 	@echo ... practice_c2_4.obj
 	@echo ... practice_c2_4.i
 	@echo ... practice_c2_4.s
