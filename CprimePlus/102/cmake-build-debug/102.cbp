@@ -105,16 +105,6 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="exp205">
 				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/exp205.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
@@ -345,6 +335,60 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="exp301">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/exp301.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp301"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exp301/fast">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/exp301.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 exp301/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/CLionProject/CprimePlus/102/fathm_ft.c">
 			<Option target="exp205"/>
@@ -357,6 +401,9 @@
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/nogood.c">
 			<Option target="exp207"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/CprimePlus/102/platinum.c">
+			<Option target="exp301"/>
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/practice_c2_1.c">
 			<Option target="prac2_1"/>

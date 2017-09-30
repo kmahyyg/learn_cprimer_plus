@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\CLionProject\CprimePlus\102\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -200,6 +200,19 @@ prac2_4/fast:
 	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
 .PHONY : prac2_4/fast
 
+#=============================================================================
+# Target rules for targets named exp301
+
+# Build rule for target.
+exp301: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp301
+.PHONY : exp301
+
+# fast build rule for target.
+exp301/fast:
+	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/build
+.PHONY : exp301/fast
+
 fathm_ft.obj: fathm_ft.c.obj
 
 .PHONY : fathm_ft.obj
@@ -308,6 +321,33 @@ nogood.c.s:
 	$(MAKE) -f CMakeFiles\exp207.dir\build.make CMakeFiles/exp207.dir/nogood.c.s
 .PHONY : nogood.c.s
 
+platinum.obj: platinum.c.obj
+
+.PHONY : platinum.obj
+
+# target to build an object file
+platinum.c.obj:
+	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/platinum.c.obj
+.PHONY : platinum.c.obj
+
+platinum.i: platinum.c.i
+
+.PHONY : platinum.i
+
+# target to preprocess a source file
+platinum.c.i:
+	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/platinum.c.i
+.PHONY : platinum.c.i
+
+platinum.s: platinum.c.s
+
+.PHONY : platinum.s
+
+# target to generate assembly for a file
+platinum.c.s:
+	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/platinum.c.s
+.PHONY : platinum.c.s
+
 practice_c2_1.obj: practice_c2_1.c.obj
 
 .PHONY : practice_c2_1.obj
@@ -397,13 +437,14 @@ help:
 	@echo ... depend
 	@echo ... exp201
 	@echo ... exp102
-	@echo ... rebuild_cache
 	@echo ... exp205
 	@echo ... exp206
 	@echo ... prac2_1
 	@echo ... exp207
 	@echo ... edit_cache
 	@echo ... prac2_4
+	@echo ... exp301
+	@echo ... rebuild_cache
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
@@ -416,6 +457,9 @@ help:
 	@echo ... nogood.obj
 	@echo ... nogood.i
 	@echo ... nogood.s
+	@echo ... platinum.obj
+	@echo ... platinum.i
+	@echo ... platinum.s
 	@echo ... practice_c2_1.obj
 	@echo ... practice_c2_1.i
 	@echo ... practice_c2_1.s
