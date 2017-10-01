@@ -5,14 +5,15 @@
 #include <stdio.h>
 
 int main(void){
-    printf("The length of int is : %d . \n", sizeof(int));
-    printf("The length of char is : %d . \n", sizeof(char));
-    printf("The length of double is : %d . \n", sizeof(double));
-    printf("The length of long is : %d . \n", sizeof(long));
-    printf("The length of short is : %d . \n", sizeof(short));
-    printf("The length of float is : %d . \n", sizeof(float));
-    printf("The length of longlong is : %d . \n", sizeof(long long));
-    printf("The length of longdouble is : %d . \n", sizeof(long double));
-    printf("The length of short int is : %d . \n", sizeof(short int));
+    printf("The length of int i3s : %d bytes. \n", sizeof(int));
+    printf("The length of char i4s : %d bytes. \n", sizeof(char));
+    printf("The length of double i5s : %d bytes. \n", sizeof(double));
+    printf("The length of long i4s : %d bytes. \n", sizeof(long));
+    printf("The length of short i5s : %d bytes. \n", sizeof(short));
+    printf("The length of float i5s : %d bytes. \n", sizeof(float));
+    printf("The length of longlong i9s : %d bytes. \n", sizeof(long long));
+    printf("The length of longdouble i11s : %d bytes. \n", sizeof(long double));
+    printf("The length of short int i9s : %d bytes. \n", sizeof(short int));
+    return 0;
 }
 
