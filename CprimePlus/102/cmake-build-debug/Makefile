@@ -136,19 +136,6 @@ exp102/fast:
 .PHONY : exp102/fast
 
 #=============================================================================
-# Target rules for targets named prac2_3
-
-# Build rule for target.
-prac2_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 prac2_3
-.PHONY : prac2_3
-
-# fast build rule for target.
-prac2_3/fast:
-	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/build
-.PHONY : prac2_3/fast
-
-#=============================================================================
 # Target rules for targets named exp205
 
 # Build rule for target.
@@ -201,19 +188,6 @@ exp207/fast:
 .PHONY : exp207/fast
 
 #=============================================================================
-# Target rules for targets named prac2_4
-
-# Build rule for target.
-prac2_4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 prac2_4
-.PHONY : prac2_4
-
-# fast build rule for target.
-prac2_4/fast:
-	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
-.PHONY : prac2_4/fast
-
-#=============================================================================
 # Target rules for targets named exp301
 
 # Build rule for target.
@@ -225,32 +199,6 @@ exp301: cmake_check_build_system
 exp301/fast:
 	$(MAKE) -f CMakeFiles\exp301.dir\build.make CMakeFiles/exp301.dir/build
 .PHONY : exp301/fast
-
-#=============================================================================
-# Target rules for targets named geekl101
-
-# Build rule for target.
-geekl101: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 geekl101
-.PHONY : geekl101
-
-# fast build rule for target.
-geekl101/fast:
-	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/build
-.PHONY : geekl101/fast
-
-#=============================================================================
-# Target rules for targets named geekl102
-
-# Build rule for target.
-geekl102: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 geekl102
-.PHONY : geekl102
-
-# fast build rule for target.
-geekl102/fast:
-	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/build
-.PHONY : geekl102/fast
 
 #=============================================================================
 # Target rules for targets named geekl103
@@ -266,6 +214,84 @@ geekl103/fast:
 .PHONY : geekl103/fast
 
 #=============================================================================
+# Target rules for targets named exp302
+
+# Build rule for target.
+exp302: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp302
+.PHONY : exp302
+
+# fast build rule for target.
+exp302/fast:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/build
+.PHONY : exp302/fast
+
+#=============================================================================
+# Target rules for targets named geekl102
+
+# Build rule for target.
+geekl102: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl102
+.PHONY : geekl102
+
+# fast build rule for target.
+geekl102/fast:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/build
+.PHONY : geekl102/fast
+
+#=============================================================================
+# Target rules for targets named exp303
+
+# Build rule for target.
+exp303: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp303
+.PHONY : exp303
+
+# fast build rule for target.
+exp303/fast:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/build
+.PHONY : exp303/fast
+
+#=============================================================================
+# Target rules for targets named prac2_3
+
+# Build rule for target.
+prac2_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2_3
+.PHONY : prac2_3
+
+# fast build rule for target.
+prac2_3/fast:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/build
+.PHONY : prac2_3/fast
+
+#=============================================================================
+# Target rules for targets named prac2_4
+
+# Build rule for target.
+prac2_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2_4
+.PHONY : prac2_4
+
+# fast build rule for target.
+prac2_4/fast:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
+.PHONY : prac2_4/fast
+
+#=============================================================================
+# Target rules for targets named geekl101
+
+# Build rule for target.
+geekl101: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 geekl101
+.PHONY : geekl101
+
+# fast build rule for target.
+geekl101/fast:
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/build
+.PHONY : geekl101/fast
+
+#=============================================================================
 # Target rules for targets named hworld
 
 # Build rule for target.
@@ -277,6 +303,33 @@ hworld: cmake_check_build_system
 hworld/fast:
 	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/build
 .PHONY : hworld/fast
+
+bases.obj: bases.c.obj
+
+.PHONY : bases.obj
+
+# target to build an object file
+bases.c.obj:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/bases.c.obj
+.PHONY : bases.c.obj
+
+bases.i: bases.c.i
+
+.PHONY : bases.i
+
+# target to preprocess a source file
+bases.c.i:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/bases.c.i
+.PHONY : bases.c.i
+
+bases.s: bases.c.s
+
+.PHONY : bases.s
+
+# target to generate assembly for a file
+bases.c.s:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/bases.c.s
+.PHONY : bases.c.s
 
 fathm_ft.obj: fathm_ft.c.obj
 
@@ -602,6 +655,33 @@ practice_c2_4.c.s:
 	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/practice_c2_4.c.s
 .PHONY : practice_c2_4.c.s
 
+print1.obj: print1.c.obj
+
+.PHONY : print1.obj
+
+# target to build an object file
+print1.c.obj:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/print1.c.obj
+.PHONY : print1.c.obj
+
+print1.i: print1.c.i
+
+.PHONY : print1.i
+
+# target to preprocess a source file
+print1.c.i:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/print1.c.i
+.PHONY : print1.c.i
+
+print1.s: print1.c.s
+
+.PHONY : print1.s
+
+# target to generate assembly for a file
+print1.c.s:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/print1.c.s
+.PHONY : print1.c.s
+
 two_func.obj: two_func.c.obj
 
 .PHONY : two_func.obj
@@ -637,19 +717,24 @@ help:
 	@echo ... depend
 	@echo ... exp201
 	@echo ... exp102
-	@echo ... prac2_3
 	@echo ... exp205
 	@echo ... exp206
 	@echo ... prac2_1
 	@echo ... exp207
-	@echo ... prac2_4
 	@echo ... exp301
-	@echo ... geekl101
-	@echo ... geekl102
 	@echo ... geekl103
+	@echo ... exp302
+	@echo ... geekl102
+	@echo ... exp303
+	@echo ... prac2_3
+	@echo ... prac2_4
+	@echo ... geekl101
 	@echo ... hworld
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... bases.obj
+	@echo ... bases.i
+	@echo ... bases.s
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
@@ -686,6 +771,9 @@ help:
 	@echo ... practice_c2_4.obj
 	@echo ... practice_c2_4.i
 	@echo ... practice_c2_4.s
+	@echo ... print1.obj
+	@echo ... print1.i
+	@echo ... print1.s
 	@echo ... two_func.obj
 	@echo ... two_func.i
 	@echo ... two_func.s

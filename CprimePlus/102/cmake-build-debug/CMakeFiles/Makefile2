@@ -133,43 +133,6 @@ clean: CMakeFiles/exp102.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/prac2_3.dir
-
-# All Build rule for target.
-CMakeFiles/prac2_3.dir/all:
-	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/depend
-	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target prac2_3"
-.PHONY : CMakeFiles/prac2_3.dir/all
-
-# Include target in all.
-all: CMakeFiles/prac2_3.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac2_3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/prac2_3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/prac2_3.dir/rule
-
-# Convenience name for target.
-prac2_3: CMakeFiles/prac2_3.dir/rule
-
-.PHONY : prac2_3
-
-# clean rule for target.
-CMakeFiles/prac2_3.dir/clean:
-	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/clean
-.PHONY : CMakeFiles/prac2_3.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/prac2_3.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/exp205.dir
 
 # All Build rule for target.
@@ -250,7 +213,7 @@ clean: CMakeFiles/exp206.dir/clean
 CMakeFiles/prac2_1.dir/all:
 	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/depend
 	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target prac2_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target prac2_1"
 .PHONY : CMakeFiles/prac2_1.dir/all
 
 # Include target in all.
@@ -318,43 +281,6 @@ clean: CMakeFiles/exp207.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/prac2_4.dir
-
-# All Build rule for target.
-CMakeFiles/prac2_4.dir/all:
-	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/depend
-	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target prac2_4"
-.PHONY : CMakeFiles/prac2_4.dir/all
-
-# Include target in all.
-all: CMakeFiles/prac2_4.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac2_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/prac2_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/prac2_4.dir/rule
-
-# Convenience name for target.
-prac2_4: CMakeFiles/prac2_4.dir/rule
-
-.PHONY : prac2_4
-
-# clean rule for target.
-CMakeFiles/prac2_4.dir/clean:
-	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/clean
-.PHONY : CMakeFiles/prac2_4.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/prac2_4.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/exp301.dir
 
 # All Build rule for target.
@@ -392,87 +318,13 @@ clean: CMakeFiles/exp301.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/geekl101.dir
-
-# All Build rule for target.
-CMakeFiles/geekl101.dir/all:
-	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/depend
-	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target geekl101"
-.PHONY : CMakeFiles/geekl101.dir/all
-
-# Include target in all.
-all: CMakeFiles/geekl101.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/geekl101.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/geekl101.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/geekl101.dir/rule
-
-# Convenience name for target.
-geekl101: CMakeFiles/geekl101.dir/rule
-
-.PHONY : geekl101
-
-# clean rule for target.
-CMakeFiles/geekl101.dir/clean:
-	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/clean
-.PHONY : CMakeFiles/geekl101.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/geekl101.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/geekl102.dir
-
-# All Build rule for target.
-CMakeFiles/geekl102.dir/all:
-	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/depend
-	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target geekl102"
-.PHONY : CMakeFiles/geekl102.dir/all
-
-# Include target in all.
-all: CMakeFiles/geekl102.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/geekl102.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/geekl102.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/geekl102.dir/rule
-
-# Convenience name for target.
-geekl102: CMakeFiles/geekl102.dir/rule
-
-.PHONY : geekl102
-
-# clean rule for target.
-CMakeFiles/geekl102.dir/clean:
-	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/clean
-.PHONY : CMakeFiles/geekl102.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/geekl102.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/geekl103.dir
 
 # All Build rule for target.
 CMakeFiles/geekl103.dir/all:
 	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/depend
 	$(MAKE) -f CMakeFiles\geekl103.dir\build.make CMakeFiles/geekl103.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target geekl103"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target geekl103"
 .PHONY : CMakeFiles/geekl103.dir/all
 
 # Include target in all.
@@ -503,13 +355,235 @@ clean: CMakeFiles/geekl103.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/exp302.dir
+
+# All Build rule for target.
+CMakeFiles/exp302.dir/all:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/depend
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target exp302"
+.PHONY : CMakeFiles/exp302.dir/all
+
+# Include target in all.
+all: CMakeFiles/exp302.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exp302.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp302.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exp302.dir/rule
+
+# Convenience name for target.
+exp302: CMakeFiles/exp302.dir/rule
+
+.PHONY : exp302
+
+# clean rule for target.
+CMakeFiles/exp302.dir/clean:
+	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/clean
+.PHONY : CMakeFiles/exp302.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp302.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geekl102.dir
+
+# All Build rule for target.
+CMakeFiles/geekl102.dir/all:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/depend
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target geekl102"
+.PHONY : CMakeFiles/geekl102.dir/all
+
+# Include target in all.
+all: CMakeFiles/geekl102.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geekl102.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/geekl102.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/geekl102.dir/rule
+
+# Convenience name for target.
+geekl102: CMakeFiles/geekl102.dir/rule
+
+.PHONY : geekl102
+
+# clean rule for target.
+CMakeFiles/geekl102.dir/clean:
+	$(MAKE) -f CMakeFiles\geekl102.dir\build.make CMakeFiles/geekl102.dir/clean
+.PHONY : CMakeFiles/geekl102.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/geekl102.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exp303.dir
+
+# All Build rule for target.
+CMakeFiles/exp303.dir/all:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/depend
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target exp303"
+.PHONY : CMakeFiles/exp303.dir/all
+
+# Include target in all.
+all: CMakeFiles/exp303.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exp303.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exp303.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exp303.dir/rule
+
+# Convenience name for target.
+exp303: CMakeFiles/exp303.dir/rule
+
+.PHONY : exp303
+
+# clean rule for target.
+CMakeFiles/exp303.dir/clean:
+	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/clean
+.PHONY : CMakeFiles/exp303.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/exp303.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac2_3.dir
+
+# All Build rule for target.
+CMakeFiles/prac2_3.dir/all:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/depend
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target prac2_3"
+.PHONY : CMakeFiles/prac2_3.dir/all
+
+# Include target in all.
+all: CMakeFiles/prac2_3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac2_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/prac2_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/prac2_3.dir/rule
+
+# Convenience name for target.
+prac2_3: CMakeFiles/prac2_3.dir/rule
+
+.PHONY : prac2_3
+
+# clean rule for target.
+CMakeFiles/prac2_3.dir/clean:
+	$(MAKE) -f CMakeFiles\prac2_3.dir\build.make CMakeFiles/prac2_3.dir/clean
+.PHONY : CMakeFiles/prac2_3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/prac2_3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac2_4.dir
+
+# All Build rule for target.
+CMakeFiles/prac2_4.dir/all:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/depend
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target prac2_4"
+.PHONY : CMakeFiles/prac2_4.dir/all
+
+# Include target in all.
+all: CMakeFiles/prac2_4.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac2_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/prac2_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/prac2_4.dir/rule
+
+# Convenience name for target.
+prac2_4: CMakeFiles/prac2_4.dir/rule
+
+.PHONY : prac2_4
+
+# clean rule for target.
+CMakeFiles/prac2_4.dir/clean:
+	$(MAKE) -f CMakeFiles\prac2_4.dir\build.make CMakeFiles/prac2_4.dir/clean
+.PHONY : CMakeFiles/prac2_4.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/prac2_4.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/geekl101.dir
+
+# All Build rule for target.
+CMakeFiles/geekl101.dir/all:
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/depend
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target geekl101"
+.PHONY : CMakeFiles/geekl101.dir/all
+
+# Include target in all.
+all: CMakeFiles/geekl101.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/geekl101.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/geekl101.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/geekl101.dir/rule
+
+# Convenience name for target.
+geekl101: CMakeFiles/geekl101.dir/rule
+
+.PHONY : geekl101
+
+# clean rule for target.
+CMakeFiles/geekl101.dir/clean:
+	$(MAKE) -f CMakeFiles\geekl101.dir\build.make CMakeFiles/geekl101.dir/clean
+.PHONY : CMakeFiles/geekl101.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/geekl101.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hworld.dir
 
 # All Build rule for target.
 CMakeFiles/hworld.dir/all:
 	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/depend
 	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target hworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CLionProject\CprimePlus\102\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target hworld"
 .PHONY : CMakeFiles/hworld.dir/all
 
 # Include target in all.

@@ -24,10 +24,48 @@ Double: 8 Bytes
 
 # Data Type in C
 
+
+
+
+## int
+
 int : ```int short long```
 <1> signed : only +
 <2> unsigned : both + and -
 
+ISO C : int -32768~32767
+
+|Types  |Abbr|Length   |Signed|
+|-------|:------:|:---------:|------:|
+|short int|short|<int|+-|
+|long int|long|>int|+-|
+|long long int|long long|+-|
+|unsigned int|unsigned|+/0~65535|
+|signed long/long int/short|X|X|Y|
+|unsigned long long|X|X|X|
+
+
+### Declaration and initialize
+
+```
+int erns;
+int hogs,cows,goats;
+cows = 122;
+int hos = 12;
+int dogs,cats = 94 ;  /* Should be avoided */
+```
+
+### HEX or other form
+
+%d  dec
+%o  八进制
+%x  hex
+
+如果需要显示0 / 0x / 0X前缀：
+%#o %#x %#X
+
+
+## float
 float :
 <1> ```float``` : R
 <2> ```double```
@@ -138,10 +176,6 @@ int main(void)
 }
 ```
 
-https://stackoverflow.com/questions/9644327/how-to-convert-floating-value-to-integer-with-exact-precision-like-123-3443-to-1
 # Data Type Convert
 
-### Force
-
-### Incognito
-
+https://stackoverflow.com/questions/9644327/how-to-convert-floating-value-to-integer-with-exact-precision-like-123-3443-to-1
