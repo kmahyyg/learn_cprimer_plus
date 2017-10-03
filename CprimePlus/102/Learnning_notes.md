@@ -25,15 +25,42 @@ Double: 8 Bytes
 # Data Type in C
 
 
-
-
 ## int
 
 int : ```int short long```
 <1> signed : only +
 <2> unsigned : both + and -
 
-ISO C : int -32768~32767
+ISO C : int -32768~32767 (16bit)
+
+(32bit long) [-2147483647,2147483647]
+
+(32bit unsigned short/int) [0,65535]
+
+(32bit unsigned long)[0,4294967295]
+
+(64bit long long)[-9223372036854775807,9223372036854775807]
+
+(64bit unsigned long long) [0,18446744073709551615]
+
+### Your choice
+
+short > int > long(especially 32bit) > long long (especially 64bit)
+
+Notice : If you need a small constant to be treated as long , you should add 'L' after the int.
+
+If it should be treated as long long , use 'LL' instead.
+
+Simply , unsigned can be represented using 'U'.
+
+I strongly suggest you use the upper case of the characters to prevent from misunderstanding.
+
+
+### Compiler Choice
+
+int > unsigned int > long > unsigned long > long long > unsigned long long
+
+#### Comparison
 
 |Types  |Abbr|Length   |Signed|
 |-------|:------:|:---------:|------:|
@@ -179,3 +206,20 @@ int main(void)
 # Data Type Convert
 
 https://stackoverflow.com/questions/9644327/how-to-convert-floating-value-to-integer-with-exact-precision-like-123-3443-to-1
+
+
+# Jetbrains CLion : scanf() or strtol()
+
+>Anna Filippova (IntelliJ)
+Oct 2, 15:04 CEST
+
+>Hello!
+
+>Clang-tidy is a clang-based C++ “linter” tool. Its purpose is to provide an extensible framework for diagnosing and fixing typical programming errors, like style violations, interface misuse, or bugs that can be deduced via static analysis. We have integrated clang-tidy in CLion since CLion 2017.2. Please take a look at our blog post: https://blog.jetbrains.com/clion/2017/07/clion-2017-2-released-clang-tidy-and-more/#clang-tidy. To disable it in CLion 2017.2 you need to set special clang-tidy option in File | Settings | Editor | Inspections - General - Clang-Tidy, add -cert-err34-c to Options and click Ok. You can find out more in clang-tidy documentation: http://clang.llvm.org/extra/clang-tidy/#using-clang-tidy.
+
+>Best Regards,
+
+>Anna Filippova
+JetBrains
+http://www.jetbrains.com
+The Drive to Develop

@@ -17,7 +17,7 @@ add_executable(exp303 bases.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
-add_executable(prac2_3 practice_c2_3.c)
+add_executable(prac2_3 practice_c2_3.c)    # -cert-err34-c
 add_executable(prac2_4 practice_c2_4.c)
 
 
