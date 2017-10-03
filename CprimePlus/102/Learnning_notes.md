@@ -43,6 +43,13 @@ ISO C : int -32768~32767 (16bit)
 
 (64bit unsigned long long) [0,18446744073709551615]
 
+related source file : toobig.c
+
+#### Overflow Int
+
+For example , more details plz see exp342.exe ;
+you might see that it returns for the beginning of the date type range.
+
 ### Your choice
 
 short > int > long(especially 32bit) > long long (especially 64bit)
@@ -54,7 +61,7 @@ If it should be treated as long long , use 'LL' instead.
 Simply , unsigned can be represented using 'U'.
 
 I strongly suggest you use the upper case of the characters to prevent from misunderstanding.
-
+But If you are going to do a force-transform , use lower case instead.
 
 ### Compiler Choice
 
@@ -62,14 +69,14 @@ int > unsigned int > long > unsigned long > long long > unsigned long long
 
 #### Comparison
 
-|Types  |Abbr|Length   |Signed|
-|-------|:------:|:---------:|------:|
-|short int|short|<int|+-|
-|long int|long|>int|+-|
-|long long int|long long|+-|
-|unsigned int|unsigned|+/0~65535|
-|signed long/long int/short|X|X|Y|
-|unsigned long long|X|X|X|
+|Types  |Abbr    |Length     |Signed | Place-Taking note|
+|-------|:------:|:---------:|------:|-----------------:|
+|short int|short |<int|+-|%hd(dec)/%ho(oct)|
+|long int |long  |>int|+-|%ld/%lx(HEX)/%lo(oct)|
+|long long int|long long|+-|X|%lld/%llu|
+|unsigned int|unsigned|+/0~65535|X|%lu|
+|signed long/long int/short|X|X|Y|%l %ld %h|
+|unsigned long long|X|X|X|%llu|
 
 
 ### Declaration and initialize

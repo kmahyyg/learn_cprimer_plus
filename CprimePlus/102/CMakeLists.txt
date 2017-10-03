@@ -14,6 +14,7 @@ add_executable(exp207 nogood.c)
 add_executable(exp301 platinum.c)
 add_executable(exp302 print1.c)
 add_executable(exp303 bases.c)
+add_executable(exp342 toobig.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)

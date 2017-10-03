@@ -162,17 +162,17 @@ exp206/fast:
 .PHONY : exp206/fast
 
 #=============================================================================
-# Target rules for targets named prac2_1
+# Target rules for targets named exp342
 
 # Build rule for target.
-prac2_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 prac2_1
-.PHONY : prac2_1
+exp342: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp342
+.PHONY : exp342
 
 # fast build rule for target.
-prac2_1/fast:
-	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/build
-.PHONY : prac2_1/fast
+exp342/fast:
+	$(MAKE) -f CMakeFiles\exp342.dir\build.make CMakeFiles/exp342.dir/build
+.PHONY : exp342/fast
 
 #=============================================================================
 # Target rules for targets named exp207
@@ -251,6 +251,19 @@ exp303: cmake_check_build_system
 exp303/fast:
 	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/build
 .PHONY : exp303/fast
+
+#=============================================================================
+# Target rules for targets named prac2_1
+
+# Build rule for target.
+prac2_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 prac2_1
+.PHONY : prac2_1
+
+# fast build rule for target.
+prac2_1/fast:
+	$(MAKE) -f CMakeFiles\prac2_1.dir\build.make CMakeFiles/prac2_1.dir/build
+.PHONY : prac2_1/fast
 
 #=============================================================================
 # Target rules for targets named prac2_3
@@ -682,6 +695,33 @@ print1.c.s:
 	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/print1.c.s
 .PHONY : print1.c.s
 
+toobig.obj: toobig.c.obj
+
+.PHONY : toobig.obj
+
+# target to build an object file
+toobig.c.obj:
+	$(MAKE) -f CMakeFiles\exp342.dir\build.make CMakeFiles/exp342.dir/toobig.c.obj
+.PHONY : toobig.c.obj
+
+toobig.i: toobig.c.i
+
+.PHONY : toobig.i
+
+# target to preprocess a source file
+toobig.c.i:
+	$(MAKE) -f CMakeFiles\exp342.dir\build.make CMakeFiles/exp342.dir/toobig.c.i
+.PHONY : toobig.c.i
+
+toobig.s: toobig.c.s
+
+.PHONY : toobig.s
+
+# target to generate assembly for a file
+toobig.c.s:
+	$(MAKE) -f CMakeFiles\exp342.dir\build.make CMakeFiles/exp342.dir/toobig.c.s
+.PHONY : toobig.c.s
+
 two_func.obj: two_func.c.obj
 
 .PHONY : two_func.obj
@@ -719,13 +759,14 @@ help:
 	@echo ... exp102
 	@echo ... exp205
 	@echo ... exp206
-	@echo ... prac2_1
+	@echo ... exp342
 	@echo ... exp207
 	@echo ... exp301
 	@echo ... geekl103
 	@echo ... exp302
 	@echo ... geekl102
 	@echo ... exp303
+	@echo ... prac2_1
 	@echo ... prac2_3
 	@echo ... prac2_4
 	@echo ... geekl101
@@ -774,6 +815,9 @@ help:
 	@echo ... print1.obj
 	@echo ... print1.i
 	@echo ... print1.s
+	@echo ... toobig.obj
+	@echo ... toobig.i
+	@echo ... toobig.s
 	@echo ... two_func.obj
 	@echo ... two_func.i
 	@echo ... two_func.s

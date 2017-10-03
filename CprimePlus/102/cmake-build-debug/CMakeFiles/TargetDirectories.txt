@@ -2,13 +2,14 @@ D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp201.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp102.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp205.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp206.dir
-D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_1.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp342.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp207.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp301.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl103.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp302.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl102.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp303.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_1.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_3.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_4.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl101.dir
