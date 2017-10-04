@@ -9,10 +9,12 @@ D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl103.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp302.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl102.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp303.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/exp344.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_1.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_3.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/prac2_4.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl101.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/hworld.dir
-D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/testbeep.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\CLionProject\CprimePlus\102\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -253,6 +253,19 @@ exp303/fast:
 .PHONY : exp303/fast
 
 #=============================================================================
+# Target rules for targets named exp344
+
+# Build rule for target.
+exp344: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp344
+.PHONY : exp344
+
+# fast build rule for target.
+exp344/fast:
+	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/build
+.PHONY : exp344/fast
+
+#=============================================================================
 # Target rules for targets named prac2_1
 
 # Build rule for target.
@@ -316,6 +329,19 @@ hworld: cmake_check_build_system
 hworld/fast:
 	$(MAKE) -f CMakeFiles\hworld.dir\build.make CMakeFiles/hworld.dir/build
 .PHONY : hworld/fast
+
+#=============================================================================
+# Target rules for targets named testbeep
+
+# Build rule for target.
+testbeep: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 testbeep
+.PHONY : testbeep
+
+# fast build rule for target.
+testbeep/fast:
+	$(MAKE) -f CMakeFiles\testbeep.dir\build.make CMakeFiles/testbeep.dir/build
+.PHONY : testbeep/fast
 
 bases.obj: bases.c.obj
 
@@ -695,6 +721,60 @@ print1.c.s:
 	$(MAKE) -f CMakeFiles\exp302.dir\build.make CMakeFiles/exp302.dir/print1.c.s
 .PHONY : print1.c.s
 
+print2.obj: print2.c.obj
+
+.PHONY : print2.obj
+
+# target to build an object file
+print2.c.obj:
+	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/print2.c.obj
+.PHONY : print2.c.obj
+
+print2.i: print2.c.i
+
+.PHONY : print2.i
+
+# target to preprocess a source file
+print2.c.i:
+	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/print2.c.i
+.PHONY : print2.c.i
+
+print2.s: print2.c.s
+
+.PHONY : print2.s
+
+# target to generate assembly for a file
+print2.c.s:
+	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/print2.c.s
+.PHONY : print2.c.s
+
+testbeep.obj: testbeep.c.obj
+
+.PHONY : testbeep.obj
+
+# target to build an object file
+testbeep.c.obj:
+	$(MAKE) -f CMakeFiles\testbeep.dir\build.make CMakeFiles/testbeep.dir/testbeep.c.obj
+.PHONY : testbeep.c.obj
+
+testbeep.i: testbeep.c.i
+
+.PHONY : testbeep.i
+
+# target to preprocess a source file
+testbeep.c.i:
+	$(MAKE) -f CMakeFiles\testbeep.dir\build.make CMakeFiles/testbeep.dir/testbeep.c.i
+.PHONY : testbeep.c.i
+
+testbeep.s: testbeep.c.s
+
+.PHONY : testbeep.s
+
+# target to generate assembly for a file
+testbeep.c.s:
+	$(MAKE) -f CMakeFiles\testbeep.dir\build.make CMakeFiles/testbeep.dir/testbeep.c.s
+.PHONY : testbeep.c.s
+
 toobig.obj: toobig.c.obj
 
 .PHONY : toobig.obj
@@ -766,13 +846,15 @@ help:
 	@echo ... exp302
 	@echo ... geekl102
 	@echo ... exp303
+	@echo ... exp344
 	@echo ... prac2_1
 	@echo ... prac2_3
 	@echo ... prac2_4
 	@echo ... geekl101
 	@echo ... hworld
-	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... testbeep
+	@echo ... edit_cache
 	@echo ... bases.obj
 	@echo ... bases.i
 	@echo ... bases.s
@@ -815,6 +897,12 @@ help:
 	@echo ... print1.obj
 	@echo ... print1.i
 	@echo ... print1.s
+	@echo ... print2.obj
+	@echo ... print2.i
+	@echo ... print2.s
+	@echo ... testbeep.obj
+	@echo ... testbeep.i
+	@echo ... testbeep.s
 	@echo ... toobig.obj
 	@echo ... toobig.i
 	@echo ... toobig.s

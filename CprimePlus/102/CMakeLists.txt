@@ -15,6 +15,7 @@ add_executable(exp301 platinum.c)
 add_executable(exp302 print1.c)
 add_executable(exp303 bases.c)
 add_executable(exp342 toobig.c)
+add_executable(exp344 print2.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
@@ -27,5 +28,7 @@ add_executable(geekl101 geekunion1.c)
 add_executable(geekl102 geekunion2.c)
 add_executable(geekl103 geekunion3.c)
 add_executable(hworld helloworld.c)
+add_executable(testbeep testbeep.c)
+
 
 # add_executable(exp102 ${SOURCE_FILES})

@@ -24,7 +24,41 @@ Double: 8 Bytes
 
 # Data Type in C
 
+## char
 
+```objectivec
+char grade = 'A';  //Please use ' instead of "
+char broiled;
+broiled = "T" //Strings 
+broiled = 'T' // Char
+broiled = T // Var Name
+char fucku = 65;  // This means when u use a ASCII-based OS you could make fucku as A
+// C always treat char constant as a int.
+```
+
+If you save a string constant 'FATE' but point it to char(grade) , then u'll just see 'E'.
+
+### 3 Methods to see the char
+
+1. Use the ASCII int code.
+2. Use the Escape sequence.
+
+|Escape sequence|Explanation|
+|:--------------:|:----------:|
+|\a|Alert (ANSI C)|
+|\b|Backspace|
+|\f|Next Page|
+|\r|Enter|
+|\t|Sheet Text (vertical)|
+|\v|Sheet Text (horizon)|
+|\\|\|
+|\'|'|
+|\"|"|
+|\?|?|
+|\O45|45(oct)|
+|\x6F|6F(hex)|
+
+3. 
 ## int
 
 int : ```int short long```
@@ -43,7 +77,7 @@ ISO C : int -32768~32767 (16bit)
 
 (64bit unsigned long long) [0,18446744073709551615]
 
-related source file : toobig.c
+related source file : toobig.c , print2.c
 
 #### Overflow Int
 
@@ -70,7 +104,7 @@ int > unsigned int > long > unsigned long > long long > unsigned long long
 #### Comparison
 
 |Types  |Abbr    |Length     |Signed | Place-Taking note|
-|-------|:------:|:---------:|------:|-----------------:|
+|:-------:|:------:|:---------:|:------:|:-----------------:|
 |short int|short |<int|+-|%hd(dec)/%ho(oct)|
 |long int |long  |>int|+-|%ld/%lx(HEX)/%lo(oct)|
 |long long int|long long|+-|X|%lld/%llu|
