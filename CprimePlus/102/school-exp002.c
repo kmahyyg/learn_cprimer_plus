@@ -1,6 +1,6 @@
 // Filename : school-exp002.c
 // Created by Yyg on 10/9/2017.
-// Description : Exp 2 , Standard C99
+// Description : Exp 2 Part 1 printf() , Standard C99
 
 #include <stdio.h>
 
@@ -30,7 +30,7 @@ int main(void) {
     printf("019. %c \n", 'G' + 6);
     printf("020. %c \n", 'G' - 6);
     printf("----------------------------- \n");
-// If allowed , I'll try to use the short int(Dec) instead of int(Dec)
+// If allowed , I'll try to use the short int(Dec) [%hd] instead of int(Dec) [%d]
     printf("021. %d \n", 'b' - 'a');
     printf("022. %d \n", 'g' - 'a' + 1);
     printf("023. %d \n", 'G' - 'A' + 1);

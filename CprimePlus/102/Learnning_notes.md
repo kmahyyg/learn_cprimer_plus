@@ -16,9 +16,9 @@ C99 :
 
 # Memory Usage in saving data
 
-Float : 4 Bytes
+Float : 4 Bytes  (%f)
 
-Double: 8 Bytes
+Double: 8 Bytes  (%lf)
 
 ```printf("The length of the char is :",sizeof(char))```
 
@@ -27,13 +27,15 @@ Double: 8 Bytes
 ## char
 
 ```objectivec
-char grade = 'A';  //Please use ' instead of "
-char broiled;
-broiled = "T" //Strings 
-broiled = 'T' // Char
-broiled = T // Var Name
-char fucku = 65;  // This means when u use a ASCII-based OS you could make fucku as A
-// C always treat char constant as a int.
+int main(void){
+    char grade = 'A';  //Please use ' instead of "
+    char broiled;
+    broiled = "T" //Strings 
+    broiled = 'T' // Char
+    broiled = T // Var Name
+    char fucku = 65;  // This means when u use a ASCII-based OS you could make fucku as A
+    // C always treat char constant as a int.
+}
 ```
 
 If you save a string constant 'FATE' but point it to char(grade) , then u'll just see 'E'.

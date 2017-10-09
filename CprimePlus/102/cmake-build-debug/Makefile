@@ -331,6 +331,19 @@ hworld/fast:
 .PHONY : hworld/fast
 
 #=============================================================================
+# Target rules for targets named schoolexp201
+
+# Build rule for target.
+schoolexp201: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 schoolexp201
+.PHONY : schoolexp201
+
+# fast build rule for target.
+schoolexp201/fast:
+	$(MAKE) -f CMakeFiles\schoolexp201.dir\build.make CMakeFiles/schoolexp201.dir/build
+.PHONY : schoolexp201/fast
+
+#=============================================================================
 # Target rules for targets named testbeep
 
 # Build rule for target.
@@ -761,6 +774,33 @@ print2.c.s:
 	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/print2.c.s
 .PHONY : print2.c.s
 
+school-exp002-1.obj: school-exp002-1.c.obj
+
+.PHONY : school-exp002-1.obj
+
+# target to build an object file
+school-exp002-1.c.obj:
+	$(MAKE) -f CMakeFiles\schoolexp201.dir\build.make CMakeFiles/schoolexp201.dir/school-exp002-1.c.obj
+.PHONY : school-exp002-1.c.obj
+
+school-exp002-1.i: school-exp002-1.c.i
+
+.PHONY : school-exp002-1.i
+
+# target to preprocess a source file
+school-exp002-1.c.i:
+	$(MAKE) -f CMakeFiles\schoolexp201.dir\build.make CMakeFiles/schoolexp201.dir/school-exp002-1.c.i
+.PHONY : school-exp002-1.c.i
+
+school-exp002-1.s: school-exp002-1.c.s
+
+.PHONY : school-exp002-1.s
+
+# target to generate assembly for a file
+school-exp002-1.c.s:
+	$(MAKE) -f CMakeFiles\schoolexp201.dir\build.make CMakeFiles/schoolexp201.dir/school-exp002-1.c.s
+.PHONY : school-exp002-1.c.s
+
 school-exp002.obj: school-exp002.c.obj
 
 .PHONY : school-exp002.obj
@@ -893,6 +933,7 @@ help:
 	@echo ... geekl101
 	@echo ... hworld
 	@echo ... rebuild_cache
+	@echo ... schoolexp201
 	@echo ... testbeep
 	@echo ... schoolexp2
 	@echo ... edit_cache
@@ -941,6 +982,9 @@ help:
 	@echo ... print2.obj
 	@echo ... print2.i
 	@echo ... print2.s
+	@echo ... school-exp002-1.obj
+	@echo ... school-exp002-1.i
+	@echo ... school-exp002-1.s
 	@echo ... school-exp002.obj
 	@echo ... school-exp002.i
 	@echo ... school-exp002.s

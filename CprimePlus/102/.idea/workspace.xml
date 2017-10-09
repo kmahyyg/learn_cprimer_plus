@@ -5,6 +5,7 @@
       <config projectName="cprimeplus" targetName="prac2_3" />
       <config projectName="cprimeplus" targetName="schoolexp2" />
       <config projectName="cprimeplus" targetName="prac2_4" />
+      <config projectName="cprimeplus" targetName="schoolexp201" />
       <config projectName="cprimeplus" targetName="prac2_1" />
       <config projectName="cprimeplus" targetName="exp206" />
       <config projectName="cprimeplus" targetName="exp205" />
@@ -29,9 +30,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="Auto Commit&amp;Push : Add learning files">
+    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp002.c" afterPath="$PROJECT_DIR$/school-exp002.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learnning_notes.md" afterPath="$PROJECT_DIR$/Learnning_notes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testbeep.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testbeep.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cprimeplus.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/cprimeplus.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,21 +60,21 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="683">
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Learnning_notes.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Learnning_notes.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Learnning_notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1035">
-                <caret line="131" column="20" lean-forward="true" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="157">
+                <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
                 <folding>
-                  <marker date="1507118744980" expanded="true" signature="681:790" ph="//..." />
+                  <marker date="1507553036708" expanded="true" signature="734:847" ph="//..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -74,21 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="school-exp002.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/school-exp002.c">
+      <file leaf-file-name="school-exp002-1.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="308">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testbeep.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testbeep.c">
+      <file leaf-file-name="school-exp002.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school-exp002.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="440">
+              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -99,7 +107,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>hd</find>
+      <find>double</find>
+      <find>scanf</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\CLionProject\CprimePlus\102</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -131,9 +144,10 @@
         <option value="$PROJECT_DIR$/toobig.c" />
         <option value="$PROJECT_DIR$/print2.c" />
         <option value="$PROJECT_DIR$/testbeep.c" />
-        <option value="$PROJECT_DIR$/Learnning_notes.md" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/school-exp002.c" />
+        <option value="$PROJECT_DIR$/school-exp002-1.c" />
+        <option value="$PROJECT_DIR$/Learnning_notes.md" />
       </list>
     </option>
   </component>
@@ -260,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.schoolexp2">
+  <component name="RunManager" selected="Application.schoolexp201">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -318,10 +332,13 @@
     <configuration name="schoolexp2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="schoolexp2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="schoolexp2">
       <envs />
     </configuration>
+    <configuration name="schoolexp201" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="schoolexp201" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="schoolexp201">
+      <envs />
+    </configuration>
     <configuration name="testbeep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="testbeep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="testbeep">
       <envs />
     </configuration>
-    <list size="20">
+    <list size="21">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.exp102" />
       <item index="2" class="java.lang.String" itemvalue="Application.exp201" />
@@ -341,7 +358,8 @@
       <item index="16" class="java.lang.String" itemvalue="Application.prac2_3" />
       <item index="17" class="java.lang.String" itemvalue="Application.prac2_4" />
       <item index="18" class="java.lang.String" itemvalue="Application.schoolexp2" />
-      <item index="19" class="java.lang.String" itemvalue="Application.testbeep" />
+      <item index="19" class="java.lang.String" itemvalue="Application.schoolexp201" />
+      <item index="20" class="java.lang.String" itemvalue="Application.testbeep" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -374,7 +392,7 @@
       <workItem from="1507033345908" duration="5594000" />
       <workItem from="1507116354422" duration="1475000" />
       <workItem from="1507117871912" duration="980000" />
-      <workItem from="1507547869058" duration="2853000" />
+      <workItem from="1507547869058" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -411,24 +429,40 @@
       <option name="project" value="LOCAL" />
       <updated>1507549635259</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Auto Commit&amp;Push : Add learning files">
+      <created>1507550730677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507550730677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Auto Commit&amp;Push : Add learning files">
+      <created>1507552992682</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507552992682</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48411000" />
+    <option name="totallyTimeSpent" value="50694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34504133" sideWeight="0.51076424" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34504133" sideWeight="0.48923573" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34504133" sideWeight="0.48923573" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20559742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997934" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
@@ -438,7 +472,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -482,14 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bases.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -503,7 +528,7 @@
           <first_editor relative-caret-position="880">
             <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
             <folding>
-              <marker date="1507118744980" expanded="true" signature="681:790" ph="//..." />
+              <marker date="1507553036708" expanded="true" signature="734:847" ph="//..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -553,7 +578,7 @@
           <first_editor relative-caret-position="484">
             <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="53" />
             <folding>
-              <marker date="1507118744980" expanded="true" signature="681:790" ph="//..." />
+              <marker date="1507553036708" expanded="true" signature="734:847" ph="//..." />
             </folding>
           </first_editor>
           <second_editor />
@@ -675,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/two_func.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nogood.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -781,38 +799,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testbeep.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="88">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two_func.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="683">
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp002.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Learnning_notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1035">
-            <caret line="131" column="20" lean-forward="true" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="20" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="157">
+            <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
             <folding>
-              <marker date="1507118744980" expanded="true" signature="681:790" ph="//..." />
+              <marker date="1507553036708" expanded="true" signature="734:847" ph="//..." />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp002.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>

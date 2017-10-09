@@ -775,6 +775,50 @@
 					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="schoolexp201">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/schoolexp201.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 schoolexp201"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="schoolexp201/fast">
+				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/schoolexp201.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 schoolexp201/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CLionProject/CprimePlus/102/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="testbeep">
 				<Option output="D:/CLionProject/CprimePlus/102/cmake-build-debug/testbeep.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/CLionProject/CprimePlus/102/cmake-build-debug"/>
@@ -918,6 +962,9 @@
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/print2.c">
 			<Option target="exp344"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/CprimePlus/102/school-exp002-1.c">
+			<Option target="schoolexp201"/>
 		</Unit>
 		<Unit filename="D:/CLionProject/CprimePlus/102/school-exp002.c">
 			<Option target="schoolexp2"/>

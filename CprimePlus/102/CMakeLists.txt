@@ -32,6 +32,7 @@ add_executable(testbeep testbeep.c)
 
 # School EXP
 add_executable(schoolexp2 school-exp002.c)
+add_executable(schoolexp201 school-exp002-1.c)
 
 
 # add_executable(exp102 ${SOURCE_FILES})
