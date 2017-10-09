@@ -35,5 +35,6 @@ int main(void) {
     printf("022. %d \n", 'g' - 'a' + 1);
     printf("023. %d \n", 'G' - 'A' + 1);
     getchar();
+    return 0;
 }
 

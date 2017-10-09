@@ -12,4 +12,5 @@ int main(void) {
     fahrenheit = celsius * 9 / 5 + 32;
     printf("The ** %.1f ** Fahrenheit Degree equals to %.1f Celsius Degree.", fahrenheit, celsius);
     getchar();
+    return 0;
 }
