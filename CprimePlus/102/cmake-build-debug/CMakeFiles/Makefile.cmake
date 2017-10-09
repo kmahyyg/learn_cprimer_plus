@@ -67,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/geekl101.dir/DependInfo.cmake"
   "CMakeFiles/hworld.dir/DependInfo.cmake"
   "CMakeFiles/testbeep.dir/DependInfo.cmake"
+  "CMakeFiles/schoolexp2.dir/DependInfo.cmake"
   )

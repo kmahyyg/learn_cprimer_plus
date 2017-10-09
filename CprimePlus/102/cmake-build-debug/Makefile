@@ -343,6 +343,19 @@ testbeep/fast:
 	$(MAKE) -f CMakeFiles\testbeep.dir\build.make CMakeFiles/testbeep.dir/build
 .PHONY : testbeep/fast
 
+#=============================================================================
+# Target rules for targets named schoolexp2
+
+# Build rule for target.
+schoolexp2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 schoolexp2
+.PHONY : schoolexp2
+
+# fast build rule for target.
+schoolexp2/fast:
+	$(MAKE) -f CMakeFiles\schoolexp2.dir\build.make CMakeFiles/schoolexp2.dir/build
+.PHONY : schoolexp2/fast
+
 bases.obj: bases.c.obj
 
 .PHONY : bases.obj
@@ -748,6 +761,33 @@ print2.c.s:
 	$(MAKE) -f CMakeFiles\exp344.dir\build.make CMakeFiles/exp344.dir/print2.c.s
 .PHONY : print2.c.s
 
+school-exp002.obj: school-exp002.c.obj
+
+.PHONY : school-exp002.obj
+
+# target to build an object file
+school-exp002.c.obj:
+	$(MAKE) -f CMakeFiles\schoolexp2.dir\build.make CMakeFiles/schoolexp2.dir/school-exp002.c.obj
+.PHONY : school-exp002.c.obj
+
+school-exp002.i: school-exp002.c.i
+
+.PHONY : school-exp002.i
+
+# target to preprocess a source file
+school-exp002.c.i:
+	$(MAKE) -f CMakeFiles\schoolexp2.dir\build.make CMakeFiles/schoolexp2.dir/school-exp002.c.i
+.PHONY : school-exp002.c.i
+
+school-exp002.s: school-exp002.c.s
+
+.PHONY : school-exp002.s
+
+# target to generate assembly for a file
+school-exp002.c.s:
+	$(MAKE) -f CMakeFiles\schoolexp2.dir\build.make CMakeFiles/schoolexp2.dir/school-exp002.c.s
+.PHONY : school-exp002.c.s
+
 testbeep.obj: testbeep.c.obj
 
 .PHONY : testbeep.obj
@@ -854,6 +894,7 @@ help:
 	@echo ... hworld
 	@echo ... rebuild_cache
 	@echo ... testbeep
+	@echo ... schoolexp2
 	@echo ... edit_cache
 	@echo ... bases.obj
 	@echo ... bases.i
@@ -900,6 +941,9 @@ help:
 	@echo ... print2.obj
 	@echo ... print2.i
 	@echo ... print2.s
+	@echo ... school-exp002.obj
+	@echo ... school-exp002.i
+	@echo ... school-exp002.s
 	@echo ... testbeep.obj
 	@echo ... testbeep.i
 	@echo ... testbeep.s

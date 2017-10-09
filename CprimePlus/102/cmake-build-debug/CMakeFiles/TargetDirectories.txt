@@ -17,4 +17,5 @@ D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/geekl101.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/hworld.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/testbeep.dir
+D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/schoolexp2.dir
 D:/CLionProject/CprimePlus/102/cmake-build-debug/CMakeFiles/edit_cache.dir

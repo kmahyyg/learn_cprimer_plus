@@ -30,5 +30,8 @@ add_executable(geekl103 geekunion3.c)
 add_executable(hworld helloworld.c)
 add_executable(testbeep testbeep.c)
 
+# School EXP
+add_executable(schoolexp2 school-exp002.c)
+
 
 # add_executable(exp102 ${SOURCE_FILES})
