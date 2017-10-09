@@ -32,7 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learnning_notes.md" afterPath="$PROJECT_DIR$/Learnning_notes.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
@@ -67,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Learnning_notes.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Learnning_notes.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learnning_notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
@@ -82,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="school-exp002-1.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="school-exp002-1.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -392,7 +391,7 @@
       <workItem from="1507033345908" duration="5594000" />
       <workItem from="1507116354422" duration="1475000" />
       <workItem from="1507117871912" duration="980000" />
-      <workItem from="1507547869058" duration="5136000" />
+      <workItem from="1507547869058" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -443,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507552992682</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Auto Commit&amp;Push : Add learning files&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;">
+      <created>1507553066640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507553066640</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50694000" />
+    <option name="totallyTimeSpent" value="50719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
@@ -505,7 +511,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Auto Commit&amp;Push : Add learning files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auto Commit&amp;Push : Add learning files" />
+    <MESSAGE value="Auto Commit&amp;Push : Add learning files&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto Commit&amp;Push : Add learning files&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -829,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Learnning_notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -847,6 +846,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
