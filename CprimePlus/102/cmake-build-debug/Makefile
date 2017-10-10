@@ -266,6 +266,19 @@ exp344/fast:
 .PHONY : exp344/fast
 
 #=============================================================================
+# Target rules for targets named exp350
+
+# Build rule for target.
+exp350: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exp350
+.PHONY : exp350
+
+# fast build rule for target.
+exp350/fast:
+	$(MAKE) -f CMakeFiles\exp350.dir\build.make CMakeFiles/exp350.dir/build
+.PHONY : exp350/fast
+
+#=============================================================================
 # Target rules for targets named prac2_1
 
 # Build rule for target.
@@ -395,6 +408,33 @@ bases.s: bases.c.s
 bases.c.s:
 	$(MAKE) -f CMakeFiles\exp303.dir\build.make CMakeFiles/exp303.dir/bases.c.s
 .PHONY : bases.c.s
+
+charcode.obj: charcode.c.obj
+
+.PHONY : charcode.obj
+
+# target to build an object file
+charcode.c.obj:
+	$(MAKE) -f CMakeFiles\exp350.dir\build.make CMakeFiles/exp350.dir/charcode.c.obj
+.PHONY : charcode.c.obj
+
+charcode.i: charcode.c.i
+
+.PHONY : charcode.i
+
+# target to preprocess a source file
+charcode.c.i:
+	$(MAKE) -f CMakeFiles\exp350.dir\build.make CMakeFiles/exp350.dir/charcode.c.i
+.PHONY : charcode.c.i
+
+charcode.s: charcode.c.s
+
+.PHONY : charcode.s
+
+# target to generate assembly for a file
+charcode.c.s:
+	$(MAKE) -f CMakeFiles\exp350.dir\build.make CMakeFiles/exp350.dir/charcode.c.s
+.PHONY : charcode.c.s
 
 fathm_ft.obj: fathm_ft.c.obj
 
@@ -927,6 +967,7 @@ help:
 	@echo ... geekl102
 	@echo ... exp303
 	@echo ... exp344
+	@echo ... exp350
 	@echo ... prac2_1
 	@echo ... prac2_3
 	@echo ... prac2_4
@@ -940,6 +981,9 @@ help:
 	@echo ... bases.obj
 	@echo ... bases.i
 	@echo ... bases.s
+	@echo ... charcode.obj
+	@echo ... charcode.i
+	@echo ... charcode.s
 	@echo ... fathm_ft.obj
 	@echo ... fathm_ft.i
 	@echo ... fathm_ft.s
