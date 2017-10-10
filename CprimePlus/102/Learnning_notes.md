@@ -266,3 +266,17 @@ Oct 2, 15:04 CEST
 JetBrains
 http://www.jetbrains.com
 The Drive to Develop
+
+# Cross Platform Type : stdint.h & inttypes.h
+
+## Defined in stdint.h
+
+|Name|Description|
+|:------:|:--------------:|
+|int32_t|32bit signed int|
+|int_least8_t|8bit signed int|
+|int_fast8_t|8bit signed fastest int|
+|unitmax_t|max unsigned int|
+|intmax_t|max signed int|
+
+Data type transfer : PRId32 inttypes.h
