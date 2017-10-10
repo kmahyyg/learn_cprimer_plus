@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\exp344.dir/objects.a
-D:\MinGW\bin\ar.exe cr CMakeFiles\exp344.dir/objects.a @CMakeFiles\exp344.dir\objects1.rsp
-D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\exp344.dir/objects.a -Wl,--no-whole-archive  -o exp344.exe -Wl,--out-implib,libexp344.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\exp344.dir\linklibs.rsp
