@@ -12,16 +12,17 @@
       <config projectName="cprimeplus" targetName="hworld" />
       <config projectName="cprimeplus" targetName="exp207" />
       <config projectName="cprimeplus" targetName="exp301" />
-      <config projectName="cprimeplus" targetName="exp344" />
+      <config projectName="cprimeplus" targetName="exp345" />
       <config projectName="cprimeplus" targetName="exp102" />
       <config projectName="cprimeplus" targetName="exp201" />
+      <config projectName="cprimeplus" targetName="exp344" />
       <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="exp347" />
       <config projectName="cprimeplus" targetName="exp302" />
-      <config projectName="cprimeplus" targetName="exp351" />
+      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="exp342" />
       <config projectName="cprimeplus" targetName="geekl103" />
       <config projectName="cprimeplus" targetName="geekl101" />
-      <config projectName="cprimeplus" targetName="exp350" />
       <config projectName="cprimeplus" targetName="geekl102" />
       <config projectName="cprimeplus" targetName="testbeep" />
     </generated>
@@ -36,7 +37,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Learnning_notes.md" afterPath="$PROJECT_DIR$/Learnning_notes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print2.c" afterPath="$PROJECT_DIR$/print2.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,24 +54,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="326">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="altnames.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="altnames.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/altnames.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#122#140#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="school-exp002.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/school-exp002.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Learnning_notes_2.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learnning_notes_2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="44">
+                <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -84,6 +107,8 @@
       <find>double</find>
       <find>scanf</find>
       <find>unsigned</find>
+      <find>32</find>
+      <find>float</find>
     </findStrings>
     <dirStrings>
       <dir>D:\CLionProject\CprimePlus\102</dir>
@@ -122,9 +147,11 @@
         <option value="$PROJECT_DIR$/school-exp002.c" />
         <option value="$PROJECT_DIR$/charcode.c" />
         <option value="$PROJECT_DIR$/print2.c" />
-        <option value="$PROJECT_DIR$/Learnning_notes.md" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/altnames.c" />
+        <option value="$PROJECT_DIR$/Learnning_notes.md" />
+        <option value="$PROJECT_DIR$/Learnning_notes_2.md" />
+        <option value="$PROJECT_DIR$/showf_pt.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -134,7 +161,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="466" />
     <option name="y" value="141" />
     <option name="width" value="1231" />
@@ -251,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.exp351">
+  <component name="RunManager" selected="Application.exp347">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -285,10 +312,13 @@
     <configuration name="exp344" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp344" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp344">
       <envs />
     </configuration>
-    <configuration name="exp350" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp350" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp350">
+    <configuration name="exp345" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp345" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp345">
       <envs />
     </configuration>
-    <configuration name="exp351" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp351" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp351">
+    <configuration name="exp346" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp346" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp346">
+      <envs />
+    </configuration>
+    <configuration name="exp347" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="exp347" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="exp347">
       <envs />
     </configuration>
     <configuration name="geekl101" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="geekl101" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="geekl101">
@@ -321,7 +351,7 @@
     <configuration name="testbeep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="testbeep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="testbeep">
       <envs />
     </configuration>
-    <list size="23">
+    <list size="24">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.exp102" />
       <item index="2" class="java.lang.String" itemvalue="Application.exp201" />
@@ -333,18 +363,19 @@
       <item index="8" class="java.lang.String" itemvalue="Application.exp303" />
       <item index="9" class="java.lang.String" itemvalue="Application.exp342" />
       <item index="10" class="java.lang.String" itemvalue="Application.exp344" />
-      <item index="11" class="java.lang.String" itemvalue="Application.exp350" />
-      <item index="12" class="java.lang.String" itemvalue="Application.exp351" />
-      <item index="13" class="java.lang.String" itemvalue="Application.geekl101" />
-      <item index="14" class="java.lang.String" itemvalue="Application.geekl102" />
-      <item index="15" class="java.lang.String" itemvalue="Application.geekl103" />
-      <item index="16" class="java.lang.String" itemvalue="Application.hworld" />
-      <item index="17" class="java.lang.String" itemvalue="Application.prac2_1" />
-      <item index="18" class="java.lang.String" itemvalue="Application.prac2_3" />
-      <item index="19" class="java.lang.String" itemvalue="Application.prac2_4" />
-      <item index="20" class="java.lang.String" itemvalue="Application.schoolexp2" />
-      <item index="21" class="java.lang.String" itemvalue="Application.schoolexp201" />
-      <item index="22" class="java.lang.String" itemvalue="Application.testbeep" />
+      <item index="11" class="java.lang.String" itemvalue="Application.exp345" />
+      <item index="12" class="java.lang.String" itemvalue="Application.exp346" />
+      <item index="13" class="java.lang.String" itemvalue="Application.exp347" />
+      <item index="14" class="java.lang.String" itemvalue="Application.geekl101" />
+      <item index="15" class="java.lang.String" itemvalue="Application.geekl102" />
+      <item index="16" class="java.lang.String" itemvalue="Application.geekl103" />
+      <item index="17" class="java.lang.String" itemvalue="Application.hworld" />
+      <item index="18" class="java.lang.String" itemvalue="Application.prac2_1" />
+      <item index="19" class="java.lang.String" itemvalue="Application.prac2_3" />
+      <item index="20" class="java.lang.String" itemvalue="Application.prac2_4" />
+      <item index="21" class="java.lang.String" itemvalue="Application.schoolexp2" />
+      <item index="22" class="java.lang.String" itemvalue="Application.schoolexp201" />
+      <item index="23" class="java.lang.String" itemvalue="Application.testbeep" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -381,7 +412,10 @@
       <workItem from="1507563365097" duration="1565000" />
       <workItem from="1507566229689" duration="1062000" />
       <workItem from="1507635607762" duration="261000" />
-      <workItem from="1507642807075" duration="4308000" />
+      <workItem from="1507642807075" duration="4420000" />
+      <workItem from="1507685860206" duration="450000" />
+      <workItem from="1507686328868" duration="48000" />
+      <workItem from="1507825018057" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -460,24 +494,30 @@
       <option name="project" value="LOCAL" />
       <updated>1507643470471</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Auto Commit&amp;Push : Add learning files&#10;                                                                     &#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;">
+      <created>1507648015717</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1507648015717</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58543000" />
+    <option name="totallyTimeSpent" value="61446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="466" y="141" width="1231" height="1047" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34504133" sideWeight="0.5129171" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34504133" sideWeight="0.4870829" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34494016" sideWeight="0.4870829" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20559742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3144033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -535,21 +575,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekunion3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/helloworld.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -577,9 +602,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="484">
             <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="53" />
-            <folding>
-              <marker date="1507647131457" expanded="true" signature="734:847" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -804,19 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp002.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,18 +844,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/altnames.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="e#122#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Learnning_notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="338">
-            <caret line="275" column="26" lean-forward="false" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
-            <folding>
-              <marker date="1507647131457" expanded="true" signature="734:847" ph="//..." />
-            </folding>
+          <first_editor relative-caret-position="736">
+            <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp002.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showf_pt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learnning_notes_2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -851,19 +897,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="326">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/altnames.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#122#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

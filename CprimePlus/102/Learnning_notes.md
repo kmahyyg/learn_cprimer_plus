@@ -16,9 +16,7 @@ C99 :
 
 # Memory Usage in saving data
 
-Float : 4 Bytes  (%f)
 
-Double: 8 Bytes  (%lf)
 
 ```printf("The length of the char is :",sizeof(char))```
 
@@ -134,14 +132,34 @@ int dogs,cats = 94 ;  /* Should be avoided */
 如果需要显示0 / 0x / 0X前缀：
 %#o %#x %#X
 
+10000000  1.0e8
+123000  1.23e5
+0.01 1.0e-2
 
 ## float
-float :
-<1> ```float``` : R
-<2> ```double```
+
+<1> ```float``` : 
+
+Float : 4 Bytes  (%f)   [at least 6bit available numbers , from 1.0e-36 to 1.0e+36 , use 32bit ram]
+
+Available float constant examples:
+
+[3.14156]  [.2]   [4e16]   [.8E-5]    [100.]
+
+<2> ```double```  
+
+Double: 8 Bytes  (%lf)  [at least 32bit available numbers , use 64bit ram]
+
+Compiler will normally choose the float as double and then cut it using float to show the result which will slow down the compiling speed.
+
+If you add f/F after a float number , compiler will take it as float.
+
+If you add l/L(suggested using L to prevent from misunderstanding) to tranfer to <long double>.
+
+
 <3> ```long double```
 
-```char```
+# char
 
 # Constant and Variety
 

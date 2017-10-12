@@ -16,8 +16,9 @@ add_executable(exp302 print1.c)
 add_executable(exp303 bases.c)
 add_executable(exp342 toobig.c)
 add_executable(exp344 print2.c)
-add_executable(exp350 charcode.c)
-add_executable(exp351 altnames.c)
+add_executable(exp345 charcode.c)
+add_executable(exp346 altnames.c)
+add_executable(exp347 showf_pt.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
