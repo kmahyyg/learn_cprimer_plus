@@ -9,7 +9,7 @@ int main(void) {
     float fahrenheit;
     printf("Please input Celsius Degree:");
     scanf("%f", &celsius);
-    fahrenheit = celsius * 9 / 5 + 32;
+    fahrenheit = celsius * 9.0 / 5.0 + 32.0;
     printf("The ** %.1f ** Fahrenheit Degree equals to %.1f Celsius Degree.", fahrenheit, celsius);
     getchar();
     return 0;

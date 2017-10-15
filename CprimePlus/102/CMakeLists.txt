@@ -19,6 +19,7 @@ add_executable(exp344 print2.c)
 add_executable(exp345 charcode.c)
 add_executable(exp346 altnames.c)
 add_executable(exp347 showf_pt.c)
+add_executable(exp348 floaterr.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
