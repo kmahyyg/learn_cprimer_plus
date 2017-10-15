@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+import base64
+proxied="113.55.13.136:3128"
+bytesProxied = proxied.encode(encoding="utf-8")
+encodestr = base64.b64encode(bytesProxied)
+decodestr = base64.b64decode(encodestr)
+print(decodestr.decode())
+
