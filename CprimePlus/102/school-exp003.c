@@ -1,5 +1,5 @@
-// Filename : school-exp002-1.c
-// Created by Yyg on 10/9/2017.
+// Filename : school-exp003.c
+// Created by Yyg on 10/16/2017.
 // Description : Transfer from Celsius to Fahrenheit
 // Description : Advanced Exp wrote , Fit to the exp3
 
@@ -9,7 +9,7 @@ int main(void) {
     float celsius;
     float fahrenheit;
     int decision;
-    
+
     printf("Please input the way you need to transform: \n");
     printf("1. Celsius to Fahrenheit \n");
     printf("2. Fahrenheit to Celsius \n");
