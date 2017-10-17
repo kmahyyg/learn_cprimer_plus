@@ -1,7 +1,8 @@
 // Filename : school-exo004.c
 // Created by Yyg on 10/17/2017
 // Description : Compare between three numbers and output in order
-
+// Part one
+// something like bubble sort
 
 #include <stdio.h>
 
