@@ -20,6 +20,7 @@ add_executable(exp345 charcode.c)
 add_executable(exp346 altnames.c)
 add_executable(exp347 showf_pt.c)
 add_executable(exp348 floaterr.c)
+add_executable(exp361 badcount.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
@@ -39,6 +40,12 @@ add_executable(schoolexp2 school-exp002.c)
 add_executable(schoolexp201 school-exp002-1.c)
 add_executable(schoolexp3 school-exp003.c)
 add_executable(schoolexp401 school-exp004.c)
-add_executable(schoolexp403 school-exp004-1.c)
-add_executable(schoolexp402 school-exp004-3.c)
+add_executable(schoolexp403 school-exp004-3.c)
+add_executable(schoolexp402 school-exp004-2.c)
+add_executable(schoolexp404 school-exp004-4.c)
+add_executable(schoolexp405 school-exp004-5.c)
+
 # add_executable(exp102 ${SOURCE_FILES})
+# TEMP FILE COMPILE
+
+add_executable(TEMPBUILD school-temp.c)

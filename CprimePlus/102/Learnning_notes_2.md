@@ -17,3 +17,23 @@ see showf_pt.c
 # Float舍入错误
 
 see floaterr.c
+
+# 复数和虚数类型
+## Complex
+
+float_Complex double_Complex  long double_Complex
+
+## Imaginary
+
+float_Imaginary double_Imaginary long double_Imaginary
+
+## #include <complex.h>
+
+complex = _Complex
+imaginary = _Imaginary
+I = sqrt（-1）
+
+# Bool
+
+true_Bool
+false_Bool
