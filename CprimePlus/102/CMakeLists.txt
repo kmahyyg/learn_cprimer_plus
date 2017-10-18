@@ -39,5 +39,6 @@ add_executable(schoolexp2 school-exp002.c)
 add_executable(schoolexp201 school-exp002-1.c)
 add_executable(schoolexp3 school-exp003.c)
 add_executable(schoolexp401 school-exp004.c)
+add_executable(schoolexp403 school-exp004-1.c.c)
 
 # add_executable(exp102 ${SOURCE_FILES})
