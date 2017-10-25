@@ -84,17 +84,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="school-exp004-5.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="school-exp004-5.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school-exp004-5.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="-1346">
               <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geekunion3.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="geekunion3.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekunion3.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -532,7 +532,7 @@
       <workItem from="1508842669451" duration="4407000" />
       <workItem from="1508856749299" duration="4120000" />
       <workItem from="1508892307250" duration="869000" />
-      <workItem from="1508948179561" duration="3060000" />
+      <workItem from="1508948179561" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -664,7 +664,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98500000" />
+    <option name="totallyTimeSpent" value="98598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1871" height="1096" extended-state="6" />
@@ -1042,18 +1042,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp004-5.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekunion3.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp004-5.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1346">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding />
         </state>
       </provider>
