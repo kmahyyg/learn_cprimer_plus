@@ -25,25 +25,24 @@ int main(void) {
         prizeMoney_Stage = tempvar * .01;
         tempsum = 10 * .1 + 10 * .075 + 20 * .05 + 20 * .03 + 40 * .015 + prizeMoney_Stage;
         printf("This man should get %.3lf * 10000 RMB", tempsum);
-
-    } else if (60 <= profitMoney < 100) {
+    } else if (profitMoney >= 60 && profitMoney < 100) {
         tempvar = profitMoney - 60;
         prizeMoney_Stage = tempvar * .015;
         tempsum = 10 * .1 + 10 * .075 + 20 * .05 + 20 * .03 + prizeMoney_Stage;
         printf("This man should get %.3lf * 10000 RMB", tempsum);
-    } else if (40 < profitMoney <= 60) {
+    } else if (profitMoney > 40 && profitMoney <= 60) {
         tempvar = profitMoney - 40;
         prizeMoney_Stage = tempvar * .03;
         tempsum = 10 * .1 + 10 * .075 + 20 * .05 + prizeMoney_Stage;
         printf("This man should get %.3lf * 10000 RMB", tempsum);
-    } else if (20 < profitMoney <= 40) {
+    } else if (profitMoney > 20 && profitMoney <= 40) {
         tempvar = profitMoney - 20;
         prizeMoney_Stage = tempvar * .05;
         tempsum = 10 * .1 + 10 * .075 + prizeMoney_Stage;
         printf("This man should get %.3lf * 10000 RMB", tempsum);
-    } else if (0 <= profitMoney <= 20) {
+    } else if (profitMoney >= 0 && profitMoney <= 20) {
         tempvar = profitMoney * .1;
-        printf("This man should get %.3lf * 10000 RMB", tempvar);
+        printf("This man should get %.2lf * 10000 RMB", tempvar);
     }
     getchar();
     return 0;

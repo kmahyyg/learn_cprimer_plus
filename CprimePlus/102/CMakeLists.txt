@@ -3,6 +3,8 @@ project(cprimeplus)
 
 set(CMAKE_C_STANDARD 99)
 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+
 set(SOURCE_FILES main.c)
 
 # C Primer Plus
