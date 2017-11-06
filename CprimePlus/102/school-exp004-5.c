@@ -13,7 +13,7 @@ int main() {
         printf("Unsigned INT PLZ！");    // must > 0 , verify the data validity
         scanf("%d", &Longest);
     } else if (Longest % 2 == 0) {
-        printf("U NEED A NUM which mod 2 ==0 ");
+        printf("U NEED A NUM which mod 2 !=0 ");
         scanf("%d", &Longest);
     }
 
@@ -22,23 +22,21 @@ int main() {
 
     for (i = 0; i < Longest; i++) {                          // Print the front-space
         for (j = 0; j < Longest - i - 1; j++) {
-            printf(" ");
+            printf("!");
         }
         for (j = 0; j < i * 2 + 1; j++) {
             printf("*");                                     // Print the first **triangle** (upper part)
         }
-
         printf("\n");
     }
 
     Longest -= 1;                                            // Merge the longest line into the last part above
 
     for (i = 0; i < Longest; i++) {                          // Start to print the **trans-triangle**
-
         for (j = 0; j < i + 1; j++) {                        // Transform to print the space
-            printf(" ");
+            printf("!");
         }
-        for (j = 0; j < (Longest - (i + 1)) * 2 + 1; j++) {  // Use [Star]f(Space)
+        for (j = 0; j < (Longest - (i + 1)) * 2 + 1; j++) {  // Use [Star]=f(Space)
             printf("*");
         }
         printf("\n");

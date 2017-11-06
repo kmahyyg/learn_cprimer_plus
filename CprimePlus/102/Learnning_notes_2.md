@@ -26,6 +26,7 @@ float_Complex double_Complex  long double_Complex
 ## Imaginary
 
 float_Imaginary double_Imaginary long double_Imaginary
+you must include the header file <complex.c>
 
 ## #include <complex.h>
 
@@ -37,3 +38,9 @@ I = sqrt（-1）
 
 true_Bool
 false_Bool
+
+# Another final tip to notice
+
+'' is used to save the char constant
+
+"" is used to save the string

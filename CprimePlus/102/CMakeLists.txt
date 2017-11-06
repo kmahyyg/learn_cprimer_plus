@@ -23,6 +23,7 @@ add_executable(exp346 altnames.c)
 add_executable(exp347 showf_pt.c)
 add_executable(exp348 floaterr.c)
 add_executable(exp361 badcount.c)
+add_executable(exp362 escape.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
@@ -46,6 +47,7 @@ add_executable(schoolexp403 school-exp004-3.c)
 add_executable(schoolexp402 school-exp004-2.c)
 add_executable(schoolexp404 school-exp004-4.c)
 add_executable(schoolexp405 school-exp004-5.c)
+add_executable(schoolexp501 school-exp501.c)
 
 # add_executable(exp102 ${SOURCE_FILES})
 # TEMP FILE COMPILE
