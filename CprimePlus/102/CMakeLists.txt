@@ -24,6 +24,9 @@ add_executable(exp347 showf_pt.c)
 add_executable(exp348 floaterr.c)
 add_executable(exp361 badcount.c)
 add_executable(exp362 escape.c)
+add_executable(exp401 talkback.c)
+add_executable(exp402 praise1.c)
+add_executable(exp403 praise2.c)
 
 # C Primer Plus Practice
 add_executable(prac2_1 practice_c2_1.c)
