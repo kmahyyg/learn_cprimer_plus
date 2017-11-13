@@ -47,17 +47,18 @@ int main(void){
 
 long fact_iter(int N){
     int i;
-    unsigned long result=1;
+    long result = 1;
     for(i=1;i<=N;i++){
         result *=i;
     }
+    return result;
 }
 
 long fact_recu(int N){
-    int result;
+    long result;
     if(N <= 0 || N ==1){
         result = 1;
-        printf("The result is: %d",result);
+        return result;
     }
     else{
         return N * fact_recu(N-1);
