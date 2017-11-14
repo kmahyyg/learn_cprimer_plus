@@ -18,5 +18,15 @@
 
 // Filename: school-exp702.c
 // Created by Yyg on 11/14/2017.
-// Desc:
+// Desc: Fibonacci the last but 12 items total value.
+
+// Fibonacci sequence is : from the third item , the third one is sum of first+second.
+
+int main(void) {
+    int fibon_sequen[10] = {1, 1, 2};
+    int i;
+    for (int i = 4; i <= 10; i++) {
+
+    }
+}
 
