@@ -22,11 +22,17 @@
 
 // Fibonacci sequence is : from the third item , the third one is sum of first+second.
 
+#include <stdio.h>
+
 int main(void) {
     int fibon_sequen[10] = {1, 1, 2};
-    int i;
     for (int i = 4; i <= 10; i++) {
-
+        fibon_sequen[i - 1] = fibon_sequen[i - 2] + fibon_sequen[i - 3];
     }
+    printf("the first 10 items of the fibonacci sequence is: ");
+    for (int j = 0; j <= 9; j++) {
+        printf(" %d ", fibon_sequen[j]);
+    }
+    return 0;
 }
 
