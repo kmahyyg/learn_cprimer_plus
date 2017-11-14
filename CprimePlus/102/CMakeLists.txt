@@ -52,6 +52,8 @@ add_executable(schoolexp404 school-exp004-4.c)
 add_executable(schoolexp405 school-exp004-5.c)
 add_executable(schoolexp501 school-exp501.c)
 add_executable(schoolexp502 school-exp502.c)
+add_executable(schoolexp503 school-exp503.c)
+add_executable(schoolexp504 school-exp504.c)
 
 # add_executable(exp102 ${SOURCE_FILES})
 # TEMP FILE COMPILE
