@@ -22,6 +22,10 @@
 // REF: https://zh.wikipedia.org/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F
 // REF: https://zh.wikipedia.org/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F
 
+/* Check the array length:
+
+#define GET_ARRAY_LEN(array,len){len = (sizeof(array) / sizeof(array[0]));} */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -35,7 +39,7 @@ void swap(int *num_a, int *num_b) {
     int temp = *num_b;
     *num_b = *num_a;
     *num_a = temp;
-}
+}         // Item in array swap succuessful example
 
 int main(void) {
     int testarr[10];
@@ -43,7 +47,8 @@ int main(void) {
         testarr[i] = rand();
     }
     int decision;
-    printf("Choose a sort: \n 1.Selection Sort \n 2.Bubble Sort ");
+    printf("Choose a sort: \n 1.Selection Sort \n 2.Bubble Sort \n");
+    printf("Input your choice here:_\b");
     scanf("%d", &decision);
     if (decision == 1) {
         array_selection_sort(testarr);
@@ -74,5 +79,14 @@ void array_selection_sort(int *array1) {
 
 int array_bubble_sort(int *array2) {
 //    printf("test func of selection");
-
+    for (int i = 0; i <= 9; i++) {
+        for (int j = 0; j <= 9 - i; ++j) {
+            if (array2[j] > array2[j + 1]) {
+                swap(&array2[j], &array2[j + 1]);
+            }
+        }
+    }
+    for (int k = 0; k <= 9; k++) {
+        printf(" [%d]: %d \n", k + 1, array2[k]);
+    }
 }
