@@ -2,45 +2,45 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="prac2_4" />
       <config projectName="cprimeplus" targetName="prac2_3" />
       <config projectName="cprimeplus" targetName="prac2_1" />
-      <config projectName="cprimeplus" targetName="schoolexp701" />
-      <config projectName="cprimeplus" targetName="exp302" />
-      <config projectName="cprimeplus" targetName="exp301" />
+      <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="TEMPBUILD" />
+      <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp503" />
       <config projectName="cprimeplus" targetName="schoolexp2" />
       <config projectName="cprimeplus" targetName="schoolexp501" />
-      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp502" />
       <config projectName="cprimeplus" targetName="exp207" />
       <config projectName="cprimeplus" targetName="exp206" />
       <config projectName="cprimeplus" targetName="exp205" />
-      <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp405" />
       <config projectName="cprimeplus" targetName="schoolexp404" />
       <config projectName="cprimeplus" targetName="schoolexp403" />
       <config projectName="cprimeplus" targetName="schoolexp402" />
       <config projectName="cprimeplus" targetName="schoolexp401" />
-      <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="exp302" />
+      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp702" />
+      <config projectName="cprimeplus" targetName="schoolexp703" />
+      <config projectName="cprimeplus" targetName="exp301" />
       <config projectName="cprimeplus" targetName="exp102" />
       <config projectName="cprimeplus" targetName="exp348" />
       <config projectName="cprimeplus" targetName="exp347" />
-      <config projectName="cprimeplus" targetName="schoolexp3" />
+      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="exp345" />
       <config projectName="cprimeplus" targetName="exp344" />
       <config projectName="cprimeplus" targetName="exp342" />
-      <config projectName="cprimeplus" targetName="TEMPBUILD" />
       <config projectName="cprimeplus" targetName="schoolexp201" />
-      <config projectName="cprimeplus" targetName="geekl102" />
-      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="exp362" />
       <config projectName="cprimeplus" targetName="exp361" />
       <config projectName="cprimeplus" targetName="geekl103" />
+      <config projectName="cprimeplus" targetName="geekl102" />
+      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="schoolexp704" />
-      <config projectName="cprimeplus" targetName="schoolexp703" />
-      <config projectName="cprimeplus" targetName="schoolexp702" />
-      <config projectName="cprimeplus" targetName="schoolexp502" />
+      <config projectName="cprimeplus" targetName="schoolexp701" />
+      <config projectName="cprimeplus" targetName="schoolexp3" />
       <config projectName="cprimeplus" targetName="hworld" />
       <config projectName="cprimeplus" targetName="exp201" />
       <config projectName="cprimeplus" targetName="exp403" />
@@ -54,11 +54,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="Add the following files:&#10;&#10;(1) School Experience 7, Question 4 of Binary search algorithm.&#10;&#10;TODO : Add bin-search func.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/school-exp704.c" />
+    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="[debug] schoolexp701: fact() data overflow.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp703.c" afterPath="$PROJECT_DIR$/school-exp703.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp701.c" afterPath="$PROJECT_DIR$/school-exp701.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,18 +81,28 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="0">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="school-exp704.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="school-exp704.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp704.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="63" column="51" lean-forward="false" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+            <state relative-caret-position="807">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="school-exp701.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/school-exp701.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -103,8 +111,8 @@
       <file leaf-file-name="school-exp703.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp703.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="877">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
                 <element signature="e#1302#1402#0" expanded="false" />
                 <element signature="e#2035#2467#0" expanded="false" />
@@ -127,11 +135,11 @@
       <find>%d</find>
       <find>%lf</find>
       <find>case</find>
-      <find>sizeof</find>
       <find>void</find>
       <find>default</find>
       <find>for</find>
       <find>\b</find>
+      <find>sizeof</find>
     </findStrings>
     <replaceStrings>
       <replace>printf(&quot;This man should get %d * 10000 RMB&quot;,tempsum);</replace>
@@ -157,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fathm_ft.c" />
         <option value="$PROJECT_DIR$/main201.c" />
         <option value="$PROJECT_DIR$/two_func.c" />
         <option value="$PROJECT_DIR$/nogood.c" />
@@ -208,6 +215,7 @@
         <option value="$PROJECT_DIR$/school-exp703.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/school-exp704.c" />
+        <option value="$PROJECT_DIR$/school-exp701.c" />
       </list>
     </option>
   </component>
@@ -334,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.schoolexp703">
+  <component name="RunManager" selected="Application.schoolexp701">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -603,7 +611,8 @@
       <workItem from="1510726673388" duration="7576000" />
       <workItem from="1510748283179" duration="2247000" />
       <workItem from="1510761567201" duration="1585000" />
-      <workItem from="1510792532277" duration="4531000" />
+      <workItem from="1510792532277" duration="4597000" />
+      <workItem from="1510830080023" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -822,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510750495808</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add the following files:&#10;&#10;(1) School Experience 7, Question 4 of Binary search algorithm.&#10;&#10;TODO : Add bin-search func.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;">
+      <created>1510798165365</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1510798165365</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165521000" />
+    <option name="totallyTimeSpent" value="167502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -837,10 +853,11 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21384297" sideWeight="0.48546824" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21384297" sideWeight="0.51776105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6126033" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34607437" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18729816" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21044134" sideWeight="0.50361943" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.554371" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
@@ -850,7 +867,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -902,7 +918,8 @@
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Selection Sort algorithm.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Bubble Sort algorithm.&#10;&#10;TODO : Add timer.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 4 of Binary search algorithm.&#10;&#10;TODO : Add bin-search func.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add the following files:&#10;&#10;(1) School Experience 7, Question 4 of Binary search algorithm.&#10;&#10;TODO : Add bin-search func.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
+    <MESSAGE value="[debug] schoolexp701: fact() data overflow.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[debug] schoolexp701: fact() data overflow.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -978,7 +995,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="86" />
+      <option name="time" value="87" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
@@ -987,13 +1004,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1086,13 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekunion3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1276,7 +1279,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="0">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
@@ -1294,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp703.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="877">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="e#1302#1402#0" expanded="false" />
             <element signature="e#2035#2467#0" expanded="false" />
@@ -1305,8 +1308,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp704.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="63" column="51" lean-forward="false" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        <state relative-caret-position="807">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekunion3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp701.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding />
         </state>
       </provider>
