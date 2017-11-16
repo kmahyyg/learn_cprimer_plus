@@ -25,10 +25,10 @@
  * this sequence must not be a chain table.DONNOT try to use this algorithm apply into the frequently data-inserted seq.
  */
 
-//  #define GET_ARRAY_LEN(array,len){len = (sizeof(array) / sizeof(array[0]));}
+//#define GET_ARRAY_LEN(array,len){len = (sizeof(array) / sizeof(array[0]));}
 #include <stdio.h>
 
-int *array_selection_sort(int *array1);
+int *array_selection_sort(int *array1, int N);
 
 int bin_search(int seanum, int *arra1, int arrlen);
 
@@ -46,16 +46,16 @@ int main(void) {
     scanf("%d", &N);         //use stdin redirect with stdout
     int testarr[N];
     printf("testarr is an array.");
-    printf("this array length is %d .", N);
-    for (int i = 0; i <= N; i++) {
+    printf("this array length is %d . \n", N);
+    for (int i = 0; i < N; i++) {
         int input2;
-        printf("please input each item:");
+        printf("please input each item: \n");
         scanf("%d", &input2);
         testarr[i] = input2;
     }
     // generate a pseudo random array
-    int array2_sorted[N];
-    array2_sorted = array_selection_sort(testarr);
+    int *array2_sorted[N];
+    *array2_sorted = array_selection_sort(testarr, N);
     // copied to another array for next step
     int search_num;
     printf("input the num you want to search for:");
@@ -66,27 +66,41 @@ int main(void) {
     return 0;
 }
 
-int *array_selection_sort(int *array1) {
+int *array_selection_sort(int *array1, int N) {
 //    printf("test func of selection");
-    for (int i = 0, min = 0; i < 9; i++) {
+    for (int i = 0, min = 0; i < N; i++) {
         min = i;
-        for (int j = i + 1; j < 10; j++) {
+        for (int j = i + 1; j < (N + 1); j++) {
             if (array1[min] < array1[j]) {
                 min = j;
             }
             swap(&array1[min], &array1[j]);
         }
     }
-    for (int k = 0; k < 10; k++) {
+    for (int k = 0; k < N; k++) {
         printf("[%d] is %d \n", k + 1, array1[k]);
     }
     return array1;
 }
 
 int bin_search(int seanum, int *arra1, int arrlen) {
-    int indEx, i;
+    int indEx, i = 0;
     int midnum;
-
+    while (i <= arrlen) {
+        midnum = (arrlen - 1) / 2;
+        if (seanum < arra1[0] && seanum > arra1[arrlen]) {
+            printf("The num you search is not existed in this sequence");
+            indEx = -1;
+        } else if (seanum == arra1[midnum]) {
+            i = midnum;
+            indEx = i;
+        } else if (seanum < arra1[midnum]) {
+            i = midnum - 1;
+        } else if (seanum > arra1[midnum]) {
+            i = midnum + 1;
+        }
+    }
+    indEx = i;
     return indEx;
 }
 
