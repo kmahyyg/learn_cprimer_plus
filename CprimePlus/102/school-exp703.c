@@ -31,7 +31,7 @@
 
 // Stdlib.h used to generate 10 pseudo int number
 
-void array_selection_sort(int *array1);
+int array_selection_sort(int *array1);
 
 int array_bubble_sort(int *array2);
 
@@ -43,11 +43,12 @@ void swap(int *num_a, int *num_b) {
 
 int main(void) {
     int testarr[10];
+    printf("testarr is a random array.");
     for (int i = 0; i < 10; i++) {
         testarr[i] = rand();
     }
     int decision;
-    printf("Choose a sort: \n 1.Selection Sort \n 2.Bubble Sort \n");
+    printf("\n Choose a sort: \n 1.Selection Sort \n 2.Bubble Sort \n");
     printf("Input your choice here:_\b");
     scanf("%d", &decision);
     if (decision == 1) {
@@ -61,7 +62,7 @@ int main(void) {
     return 0;
 }
 
-void array_selection_sort(int *array1) {
+int array_selection_sort(int *array1) {
 //    printf("test func of selection");
     for (int i = 0, min = 0; i < 9; i++) {
         min = i;
@@ -75,12 +76,13 @@ void array_selection_sort(int *array1) {
     for (int k = 0; k < 10; k++) {
         printf("[%d] is %d \n", k + 1, array1[k]);
     }
+    return 0;
 }
 
 int array_bubble_sort(int *array2) {
 //    printf("test func of selection");
     for (int i = 0; i <= 9; i++) {
-        for (int j = 0; j <= 9 - i; ++j) {
+        for (int j = 0; j <= 9 - i; j++) {
             if (array2[j] > array2[j + 1]) {
                 swap(&array2[j], &array2[j + 1]);
             }
@@ -89,4 +91,5 @@ int array_bubble_sort(int *array2) {
     for (int k = 0; k <= 9; k++) {
         printf(" [%d]: %d \n", k + 1, array2[k]);
     }
+    return 0;
 }
