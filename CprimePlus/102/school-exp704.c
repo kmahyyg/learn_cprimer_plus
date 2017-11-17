@@ -16,7 +16,49 @@
    *
    */
 
-//
+// Filename : school-exp704.c
 // Created by Yyg on 11/17/2017.
-//
+// Desc : Use binary search
 
+#include <stdio.h>
+#include <string.h>
+
+// Prototype
+void swap(int *num_a, int *num_b);
+
+int binary_search(int *array101, int N, int search_num);
+// Prototype end
+
+int main(void) {
+    int N;
+    printf("Input the array length:__\b\b");
+    scanf("%d", &N);
+    int array101[2][N];    // input the array , define array
+    for (int i = 0; i < N; i++) {
+        printf("Please input data, one data:\n");
+        scanf("%d", array101[0] + i);
+    }        // input data
+    for (int j = 0, min = 0; j < (N - 1); j++) {
+        min = j;
+        for (int k = j + 1; k < N; k++) {
+            if (array101[0][min] < array101[0][k]) {
+                min = k;
+            }
+            swap(&array101[0][min], &array101[0][k]);
+        }
+        memcpy(array101[1], array101[0], sizeof(array101[0]));
+    }
+    for (int l = 0; l < N; l++) {
+        printf("[%d] is %d", l + 1, array101[1][l]);
+    }
+/*    int search_num;
+    printf("Enter the num you want to search: ");
+    scanf("%d",&search_num);
+    int result_idx;*/
+}
+
+void swap(int *num_a, int *num_b) {
+    int temp = *num_b;
+    *num_b = *num_a;
+    *num_a = temp;
+}         // Item in array swap succuessful example

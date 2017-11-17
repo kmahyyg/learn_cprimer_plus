@@ -42,7 +42,7 @@ int main(void) {
     int N;
     printf("input the array length:__\b\b");
     scanf("%d", &N);
-    int *array101 = generate_array(N);
+    int *array101[] = generate_array(N);
     // Data input finished //
     // Start searching , require the search num //
     int search_num;
