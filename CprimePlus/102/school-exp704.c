@@ -27,19 +27,30 @@
 #include <stdio.h>
 
 void swap(int *num_a, int *num_b);
-
 int *generate_array(int N);
 int *array_selection_sort(int *array1, int N);
+
+int binary_search(int *array1, int N, int search_num);
 
 int main(void) {
     // Need an input of predefined array length and get data also predefined a new array //
     int N;
-    printf("input the array length:");
+    printf("input the array length:__\b\b");
     scanf("%d", &N);
     int *array101 = generate_array(N);
-    // Need an input of predefined array length and get data also predefined a new array//
+    // Data input finished //
     // Now , use array101 to input to another func to sort. Prepare for binary search //
     int *array102 = array_selection_sort(array101, N);
+    // Sort finished , redirect to array102 //
+    // Start searching , require the search num //
+    int search_num;
+    printf("Please input the num you want to search : ____\b\b\b\b");
+    scanf("%d", &search_num);
+    // search num required //
+    // Start Binary search and return index //
+    int return_result_index = binary_search(array102, N, search_num);
+    // Returned , start debug of func binary_search //
+    // print the returned index , but with -1 to tell u have an error.
     return 0;
 }
 
@@ -76,3 +87,6 @@ int *array_selection_sort(int *array1, int N) {      // N is the predefined arra
     return array1;   //Selection Sort
 }
 
+int binary_search(int *array1, int N, int search_num) {
+
+}
