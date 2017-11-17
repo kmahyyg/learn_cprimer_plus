@@ -61,7 +61,7 @@ add_executable(schoolexp704 school-exp704.c)
 
 # debug file only
 # add_executable(debugfile2 "school-exp704 - deprecated agn .c")
-#add_executable(debugfile "school-exp704 - deprecated.c")
+# add_executable(debugfile "school-exp704 - deprecated.c")
 # add_executable(exp102 ${SOURCE_FILES})
 # TEMP FILE COMPILE
 

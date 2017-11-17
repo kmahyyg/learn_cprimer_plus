@@ -23,11 +23,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Prototype
 void swap(int *num_a, int *num_b);
-
-int binary_search(int *array101, int N, int search_num);
-// Prototype end
 
 int main(void) {
     int N;
@@ -37,7 +33,7 @@ int main(void) {
     for (int i = 0; i < N; i++) {
         printf("Please input data, one data:\n");
         scanf("%d", array101[0] + i);
-    }        // input data
+    }        // input data and insert into array101[0]
     for (int j = 0, min = 0; j < (N - 1); j++) {
         min = j;
         for (int k = j + 1; k < N; k++) {
@@ -45,16 +41,45 @@ int main(void) {
                 min = k;
             }
             swap(&array101[0][min], &array101[0][k]);
-        }
+        }     // selection sort
         memcpy(array101[1], array101[0], sizeof(array101[0]));
-    }
-    for (int l = 0; l < N; l++) {
-        printf("[%d] is %d", l + 1, array101[1][l]);
-    }
-/*    int search_num;
+    }         // memcpy copy an array into another array, located at string.h
+    int search_num;
     printf("Enter the num you want to search: ");
     scanf("%d",&search_num);
-    int result_idx;*/
+    // input search data
+    // do binary_data
+    int result_idx = 0;
+    int last = N - 1;
+    int midnum = (N - 1) / 2;
+    if (search_num < array101[1][0]) {
+        printf("The data you search is Not Existed!");
+        result_idx = -1;
+        return -1;
+    } else if (search_num > array101[1][N - 1]) {
+        printf("The data you search is Not Existed!");
+        result_idx = -1;
+        return -1;
+    } else if (search_num == array101[1][midnum]) {
+        result_idx = midnum;
+        printf("Found! location : %d.", result_idx + 1);
+        return 0;
+    } else if (search_num < array101[1][midnum]) {
+        last = midnum;
+        while (search_num < array101[1][last]) {
+            last -= 1;
+            result_idx = last;
+        }
+        printf("Found ! location : %d.", result_idx + 1);
+        return 0;
+    } else if (search_num > array101[1][midnum]) {
+        while (search_num > array101[1][midnum]) {
+            midnum += 1;
+            result_idx = midnum;
+        }
+        printf("Found ! Location : %d ", result_idx + 1);
+    }
+    return 0;
 }
 
 void swap(int *num_a, int *num_b) {
