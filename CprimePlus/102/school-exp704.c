@@ -55,14 +55,17 @@ int main(void) {
     if (search_num < array101[1][0]) {
         printf("The data you search is Not Existed!");
         result_idx = -1;
+        getchar();
         return -1;
     } else if (search_num > array101[1][N - 1]) {
         printf("The data you search is Not Existed!");
         result_idx = -1;
+        getchar();
         return -1;
     } else if (search_num == array101[1][midnum]) {
         result_idx = midnum;
         printf("Found! location : %d.", result_idx + 1);
+        getchar();
         return 0;
     } else if (search_num < array101[1][midnum]) {
         last = midnum;
@@ -70,14 +73,29 @@ int main(void) {
             last -= 1;
             result_idx = last;
         }
-        printf("Found ! location : %d.", result_idx + 1);
-        return 0;
+        if (search_num == array101[1][last]) {
+            printf("Found ! location : %d.", result_idx + 1);
+            getchar();
+            return 0;
+        } else {
+            printf("Data is not existed!");
+            getchar();
+            return -1;
+        }
     } else if (search_num > array101[1][midnum]) {
         while (search_num > array101[1][midnum]) {
             midnum += 1;
             result_idx = midnum;
         }
-        printf("Found ! Location : %d ", result_idx + 1);
+        if (search_num == array101[1][last]) {
+            printf("Found ! location : %d.", result_idx + 1);
+            getchar();
+            return 0;
+        } else {
+            printf("Data is not existed!");
+            getchar();
+            return -1;
+        }
     }
     return 0;
 }

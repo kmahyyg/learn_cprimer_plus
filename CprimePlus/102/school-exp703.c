@@ -91,5 +91,6 @@ int array_bubble_sort(int *array2) {
     for (int k = 0; k <= 9; k++) {
         printf(" [%d]: %d \n", k + 1, array2[k]);
     }
+    getchar();
     return 0;
 }
