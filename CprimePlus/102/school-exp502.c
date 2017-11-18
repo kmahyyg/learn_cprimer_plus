@@ -37,12 +37,16 @@ int main(void){
     if (decision == 1){
         result = fact_recu(N);
         printf("Result is : %ld",result);
+        return 0;
     }
     else if (decision ==2){
         result = fact_iter(N);
         printf("Result is : %ld",result);
+        return 0;
+    } else {
+        printf("Illegal data!");
+        return -1;
     }
-    return 0;
 }
 
 long fact_iter(int N){
