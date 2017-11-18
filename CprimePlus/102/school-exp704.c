@@ -51,7 +51,13 @@ int main(void) {
     // do binary_data
     int result_idx = 0;
     int last = N - 1;
-    int midnum = (N - 1) / 2;
+    int midnum;
+    if (N % 2 != 0) {
+        midnum = (N - 1) / 2;
+    }
+    else {
+        midnum = N/2;
+    }
     if (search_num < array101[1][0]) {
         printf("The data you search is Not Existed!");
         result_idx = -1;
