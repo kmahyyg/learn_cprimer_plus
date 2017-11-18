@@ -36,8 +36,10 @@ int main(void) {
     printf("1. You give date , I give you days. \n");
     printf("2. You give days , I give you date. \n");
     scanf("%d", &decision);
-    if (decision != 1 && decision != 2)
+    if (decision != 1 && decision != 2) {
         printf("Illegal Input!");
+        return -1;
+    }
     else if (decision == 1) {
         int year, month, day;
         printf("Input year now!");
