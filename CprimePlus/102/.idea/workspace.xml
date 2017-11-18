@@ -54,10 +54,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="[new] debug finished: school-exp704.c&#10;&#10;All features works fine.">
+    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp704.c" afterPath="$PROJECT_DIR$/school-exp704.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -600,7 +598,7 @@
       <workItem from="1510842730623" duration="1787000" />
       <workItem from="1510886330102" duration="9511000" />
       <workItem from="1510915257047" duration="6678000" />
-      <workItem from="1510935174066" duration="6044000" />
+      <workItem from="1510935174066" duration="6078000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -868,15 +866,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510920073405</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="[new] debug finished: school-exp704.c&#10;&#10;All features works fine.">
+      <created>1510941528967</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1510941528967</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197299000" />
+    <option name="totallyTimeSpent" value="197333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="704" y="30" width="1217" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3114035" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
