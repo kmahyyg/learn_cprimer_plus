@@ -82,12 +82,12 @@ int main(void) {
             getchar();
             return -1;
         }
-    } else if (search_num > array101[1][midnum]) {
-        while (search_num > array101[1][midnum]) {
+    } else if (search_num >= array101[1][midnum]) {
+        while (search_num >= array101[1][midnum]) {
             midnum += 1;
             result_idx = midnum;
         }
-        if (search_num == array101[1][last]) {
+        if (search_num == array101[1][midnum]) {
             printf("Found ! location : %d.", result_idx + 1);
             getchar();
             return 0;
