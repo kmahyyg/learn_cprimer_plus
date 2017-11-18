@@ -25,12 +25,12 @@
 #include <stdio.h>
 
 int main(void) {
-    int fibon_sequen[10] = {1, 1, 2};
-    for (int i = 4; i <= 10; i++) {
-        fibon_sequen[i - 1] = fibon_sequen[i - 2] + fibon_sequen[i - 3];
+    int fibon_sequen[12] = {1, 1, 2};
+    for (int i = 3; i <= 11; i++) {
+        fibon_sequen[i] = fibon_sequen[i - 1] + fibon_sequen[i - 2];
     }
-    printf("the first 10 items of the fibonacci sequence is: ");
-    for (int j = 0; j <= 9; j++) {
+    printf("the first 12 items of the fibonacci sequence is: ");
+    for (int j = 0; j <= 11; j++) {
         printf(" %d ", fibon_sequen[j]);
     }
     return 0;
