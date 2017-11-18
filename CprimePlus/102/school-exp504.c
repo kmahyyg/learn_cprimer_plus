@@ -22,8 +22,7 @@
 
 #include <stdio.h>
 
-void hanoi(int n, char a, char b, char c)         // From A to C with the help of B
-{
+void hanoi(int n, char a, char b, char c) {         // From A to C with the help of B
     if (n == 1)                                          // 1 Disc? A to C.
     {
         printf("%c-->%c\n", a, c);
@@ -34,7 +33,7 @@ void hanoi(int n, char a, char b, char c)         // From A to C with the help o
     }
 }
 
-int main() {
+int main(void) {
     int n;
     printf("Input the number of discs:");
     scanf("%d", &n);
