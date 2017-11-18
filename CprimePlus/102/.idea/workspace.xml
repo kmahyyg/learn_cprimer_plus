@@ -2,45 +2,45 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="prac2_4" />
       <config projectName="cprimeplus" targetName="prac2_3" />
       <config projectName="cprimeplus" targetName="prac2_1" />
-      <config projectName="cprimeplus" targetName="schoolexp701" />
-      <config projectName="cprimeplus" targetName="exp302" />
-      <config projectName="cprimeplus" targetName="exp301" />
+      <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="TEMPBUILD" />
+      <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp503" />
       <config projectName="cprimeplus" targetName="schoolexp2" />
       <config projectName="cprimeplus" targetName="schoolexp501" />
-      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp502" />
       <config projectName="cprimeplus" targetName="exp207" />
       <config projectName="cprimeplus" targetName="exp206" />
       <config projectName="cprimeplus" targetName="exp205" />
-      <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp405" />
       <config projectName="cprimeplus" targetName="schoolexp404" />
       <config projectName="cprimeplus" targetName="schoolexp403" />
       <config projectName="cprimeplus" targetName="schoolexp402" />
       <config projectName="cprimeplus" targetName="schoolexp401" />
-      <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="exp302" />
+      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp702" />
+      <config projectName="cprimeplus" targetName="schoolexp703" />
+      <config projectName="cprimeplus" targetName="exp301" />
       <config projectName="cprimeplus" targetName="exp102" />
       <config projectName="cprimeplus" targetName="exp348" />
       <config projectName="cprimeplus" targetName="exp347" />
-      <config projectName="cprimeplus" targetName="schoolexp3" />
+      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="exp345" />
       <config projectName="cprimeplus" targetName="exp344" />
       <config projectName="cprimeplus" targetName="exp342" />
-      <config projectName="cprimeplus" targetName="TEMPBUILD" />
       <config projectName="cprimeplus" targetName="schoolexp201" />
-      <config projectName="cprimeplus" targetName="geekl102" />
-      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="exp362" />
       <config projectName="cprimeplus" targetName="exp361" />
       <config projectName="cprimeplus" targetName="geekl103" />
+      <config projectName="cprimeplus" targetName="geekl102" />
+      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="schoolexp704" />
-      <config projectName="cprimeplus" targetName="schoolexp703" />
-      <config projectName="cprimeplus" targetName="schoolexp702" />
-      <config projectName="cprimeplus" targetName="schoolexp502" />
+      <config projectName="cprimeplus" targetName="schoolexp701" />
+      <config projectName="cprimeplus" targetName="schoolexp3" />
       <config projectName="cprimeplus" targetName="hworld" />
       <config projectName="cprimeplus" targetName="exp201" />
       <config projectName="cprimeplus" targetName="exp403" />
@@ -54,9 +54,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="[debug] correct : school-exp702.c&#10;&#10;correct index errors.">
+    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp704.c" afterPath="$PROJECT_DIR$/school-exp704.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,12 +76,12 @@
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="school-exp704.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/school-exp704.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="435">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding>
                 <element signature="e#0#750#0" expanded="false" />
                 <element signature="e#844#862#0" expanded="true" />
@@ -94,7 +93,7 @@
       <file leaf-file-name="school-exp504.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp504.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="546">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
@@ -104,7 +103,7 @@
       <file leaf-file-name="school-exp703.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp703.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
+            <state relative-caret-position="2418">
               <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
@@ -114,7 +113,7 @@
       <file leaf-file-name="school-exp503.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp503.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
+            <state relative-caret-position="676">
               <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
@@ -124,7 +123,7 @@
       <file leaf-file-name="school-exp502.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp502.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="1222">
               <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
@@ -134,7 +133,7 @@
       <file leaf-file-name="school-exp501.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp501.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1586">
+            <state relative-caret-position="1742">
               <caret line="67" column="67" lean-forward="false" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
               <folding />
             </state>
@@ -642,7 +641,8 @@
       <workItem from="1510991990907" duration="301000" />
       <workItem from="1510992523688" duration="46000" />
       <workItem from="1510992698828" duration="1942000" />
-      <workItem from="1511002548637" duration="8901000" />
+      <workItem from="1511002548637" duration="9594000" />
+      <workItem from="1511014784855" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="Auto Commit&amp;Push : Add learning files">
       <created>1506617291096</created>
@@ -938,11 +938,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511003332386</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="[deprecated] something went wrong: temp save">
+      <created>1511012235117</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1511012235117</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[debug] correct some problem while N %2 ==0&#10;&#10;#Unconfirmed">
+      <created>1511012744359</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1511012744359</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208523000" />
+    <option name="totallyTimeSpent" value="209372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="704" y="30" width="1217" height="1040" extended-state="0" />
@@ -959,7 +973,7 @@
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21044134" sideWeight="0.50361943" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46052632" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46052632" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -999,8 +1013,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add School Experience 4 : Part one : sort 3 numbers&#10;              &#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
-    <MESSAGE value="Experience 4 Optimization : User-friendly output and input&#10;              &#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add new files for the learnning book.&#10;&#10;Optimize and sync with upstream.&#10;              &#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) Learnning notes for chapter 4&#10;(2) School Experience 5 , Question 1" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 5 , Question 2&#10;&#10;Bullshit Data Type of C!" />
@@ -1024,7 +1036,9 @@
     <MESSAGE value="[debug] : data validate : school-exp704.c&#10;&#10;All features works fine." />
     <MESSAGE value="[info] : add readme.md" />
     <MESSAGE value="[debug] correct : school-exp702.c&#10;&#10;correct index errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="[debug] correct : school-exp702.c&#10;&#10;correct index errors." />
+    <MESSAGE value="[deprecated] something went wrong: temp save" />
+    <MESSAGE value="[debug] correct some problem while N %2 ==0&#10;&#10;#Unconfirmed" />
+    <option name="LAST_COMMIT_MESSAGE" value="[debug] correct some problem while N %2 ==0&#10;&#10;#Unconfirmed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1098,32 +1112,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>59</line>
+          <line>65</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>54</line>
+          <line>60</line>
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>64</line>
+          <line>70</line>
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>99</line>
+          <line>105</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>69</line>
+          <line>75</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/school-exp704.c</url>
-          <line>84</line>
+          <line>90</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1450,7 +1464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp502.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="1222">
           <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
           <folding />
         </state>
@@ -1458,7 +1472,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp503.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
+        <state relative-caret-position="676">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
@@ -1468,13 +1482,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp501.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
+        <state relative-caret-position="1742">
           <caret line="67" column="67" lean-forward="false" selection-start-line="67" selection-start-column="67" selection-end-line="67" selection-end-column="67" />
           <folding />
         </state>
@@ -1490,7 +1503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp504.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="546">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
@@ -1498,7 +1511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp703.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
+        <state relative-caret-position="2418">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
@@ -1506,8 +1519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp704.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
           <folding>
             <element signature="e#0#750#0" expanded="false" />
             <element signature="e#844#862#0" expanded="true" />
