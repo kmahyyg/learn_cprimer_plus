@@ -58,10 +58,9 @@ add_executable(schoolexp701 school-exp701.c)
 add_executable(schoolexp702 school-exp702.c)
 add_executable(schoolexp703 school-exp703.c)
 add_executable(schoolexp704 school-exp704.c)
+add_executable(schoolexp801 school-exp801.c)
 
 # debug file only
-# add_executable(debugfile2 "school-exp704 - deprecated agn .c")
-# add_executable(debugfile "school-exp704 - deprecated.c")
 # add_executable(exp102 ${SOURCE_FILES})
 # TEMP FILE COMPILE
 
