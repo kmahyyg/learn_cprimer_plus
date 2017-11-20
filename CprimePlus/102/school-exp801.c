@@ -24,15 +24,28 @@
 
 #include <stdio.h>
 
-int main(void) {
-    int inputInt = 0;
-    scanf("%d", &inputInt);
-    size_t inputLength = sizeof(inputInt);
-    printf("length is : %zu", inputLength);
-    char binaryArray[inputLength + 1];
+long decimalToBinary(long n);
 
-    gets(binaryArray);
+int main(void) {
+    long inputInt = 0;
+    printf("Input an decimal integer convert to binary:___\b\b\b");
+    scanf("%ld", &inputInt);
+    long converted;
+    converted = decimalToBinary(inputInt);
+    printf("\n %ld (dec) = %ld (bin).", inputInt, converted);
+    return 0;
 }
 
+long decimalToBinary(long n) {
+    int remainder;
+    long binary = 0, i = 1;
 
+    while (n != 0) {
+        remainder = n % 2;
+        n = n / 2;
+        binary = binary + (remainder * i);
+        i = i * 10;
+    }
+    return binary;
+}
 
