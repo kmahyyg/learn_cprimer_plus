@@ -16,10 +16,10 @@
    *
    */
 
-// Filename : school-exp704.c
+// Filename: school-exp704.c
 // Created by Yyg on 11/17/2017.
-// Desc : Use binary search
-
+// Desc: Use binary search
+// For more details and to-do list, please see Github Project Page.Thanks.
 #include <stdio.h>
 #include <string.h>
 
