@@ -59,6 +59,8 @@ add_executable(schoolexp702 school-exp702.c)
 add_executable(schoolexp703 school-exp703.c)
 add_executable(schoolexp704 school-exp704.c)
 add_executable(schoolexp801 school-exp801.c)
+add_executable(schoolexp812 school-exp801-2.c)
+add_executable(schoolexp802 school-exp802.c)
 
 # debug file only
 # add_executable(exp102 ${SOURCE_FILES})
