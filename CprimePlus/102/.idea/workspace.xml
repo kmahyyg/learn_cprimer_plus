@@ -2,51 +2,51 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="prac2_4" />
       <config projectName="cprimeplus" targetName="prac2_3" />
       <config projectName="cprimeplus" targetName="prac2_1" />
-      <config projectName="cprimeplus" targetName="schoolexp701" />
+      <config projectName="cprimeplus" targetName="exp303" />
       <config projectName="cprimeplus" targetName="exp302" />
       <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp503" />
       <config projectName="cprimeplus" targetName="schoolexp2" />
       <config projectName="cprimeplus" targetName="schoolexp501" />
-      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp502" />
       <config projectName="cprimeplus" targetName="exp207" />
       <config projectName="cprimeplus" targetName="exp206" />
       <config projectName="cprimeplus" targetName="exp205" />
-      <config projectName="cprimeplus" targetName="exp348" />
       <config projectName="cprimeplus" targetName="schoolexp812" />
       <config projectName="cprimeplus" targetName="schoolexp405" />
       <config projectName="cprimeplus" targetName="schoolexp404" />
       <config projectName="cprimeplus" targetName="schoolexp403" />
       <config projectName="cprimeplus" targetName="schoolexp402" />
       <config projectName="cprimeplus" targetName="schoolexp401" />
-      <config projectName="cprimeplus" targetName="exp303" />
+      <config projectName="cprimeplus" targetName="testbeep" />
+      <config projectName="cprimeplus" targetName="schoolexp703" />
       <config projectName="cprimeplus" targetName="exp301" />
       <config projectName="cprimeplus" targetName="exp102" />
-      <config projectName="cprimeplus" targetName="schoolexp704" />
+      <config projectName="cprimeplus" targetName="exp348" />
       <config projectName="cprimeplus" targetName="exp347" />
-      <config projectName="cprimeplus" targetName="schoolexp3" />
+      <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="exp345" />
       <config projectName="cprimeplus" targetName="exp344" />
+      <config projectName="cprimeplus" targetName="exp403" />
       <config projectName="cprimeplus" targetName="exp342" />
       <config projectName="cprimeplus" targetName="TEMPBUILD" />
-      <config projectName="cprimeplus" targetName="geekl102" />
       <config projectName="cprimeplus" targetName="schoolexp201" />
       <config projectName="cprimeplus" targetName="schoolexp801" />
-      <config projectName="cprimeplus" targetName="geekl101" />
+      <config projectName="cprimeplus" targetName="geekl102" />
       <config projectName="cprimeplus" targetName="exp362" />
       <config projectName="cprimeplus" targetName="exp361" />
       <config projectName="cprimeplus" targetName="geekl103" />
-      <config projectName="cprimeplus" targetName="schoolexp802" />
-      <config projectName="cprimeplus" targetName="schoolexp703" />
+      <config projectName="cprimeplus" targetName="schoolexp704" />
+      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="schoolexp702" />
-      <config projectName="cprimeplus" targetName="schoolexp502" />
+      <config projectName="cprimeplus" targetName="schoolexp701" />
+      <config projectName="cprimeplus" targetName="schoolexp3" />
       <config projectName="cprimeplus" targetName="hworld" />
       <config projectName="cprimeplus" targetName="exp201" />
-      <config projectName="cprimeplus" targetName="exp403" />
+      <config projectName="cprimeplus" targetName="schoolexp802" />
       <config projectName="cprimeplus" targetName="exp402" />
       <config projectName="cprimeplus" targetName="exp401" />
     </generated>
@@ -57,9 +57,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="[finish] add : school-exp801.c&#10;&#10;Finish the data convert without using any string related function.&#10;&#10;NO &lt;string.h&gt; , NO &lt;stdlib.h&gt;.&#10;FUCK MSVCRT!">
+    <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,36 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1586">
+            <state relative-caret-position="886">
               <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="school-exp801-2.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/school-exp801-2.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#750#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="school-exp801.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/school-exp801.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="87" />
-              <folding>
-                <element signature="e#0#750#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -646,14 +621,8 @@
       <workItem from="1511018242749" duration="5909000" />
       <workItem from="1511159179978" duration="3777000" />
       <workItem from="1511164688899" duration="4732000" />
-      <workItem from="1511178737123" duration="5986000" />
-    </task>
-    <task id="LOCAL-00004" summary="Auto Commit&amp;Push : Add learning files">
-      <created>1507548815547</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1507548815548</updated>
+      <workItem from="1511178737123" duration="6831000" />
+      <workItem from="1511274694432" duration="45000" />
     </task>
     <task id="LOCAL-00005" summary="Auto Commit&amp;Push : Add learning files">
       <created>1507549635259</created>
@@ -991,30 +960,36 @@
       <option name="project" value="LOCAL" />
       <updated>1511161963197</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="[finish] add : school-exp801-2.c&#10;&#10;Finish the data convert using the operators.&#10;&#10;core content: (Bitwise AND 2) (Conditional Expression3) (Left Shift1)&#10;&#10;add new file: school-exp802.c&#10;&#10;// TODO: school-exp802.c&#10;// TODO: explain the technical details about school-exp801-2.c">
+      <created>1511186107494</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1511186107496</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229877000" />
+    <option name="totallyTimeSpent" value="230767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08645833" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889126" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.48546824" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.51776105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64818764" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08645833" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21044134" sideWeight="0.50361943" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47228146" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2889126" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1052,7 +1027,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Learning files and add some file of school exp.&#10;&#10;school-exp702.c is still unfinished.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 2&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Selection Sort algorithm.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Bubble Sort algorithm.&#10;&#10;TODO : Add timer.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
@@ -1077,7 +1051,8 @@
     <MESSAGE value="[tag] Mark for to-do list : school-exp704.c&#10;&#10;More Details? See Issue #1." />
     <MESSAGE value="[new] add : school-exp801.c&#10;&#10;Temporarily Saving Data." />
     <MESSAGE value="[finish] add : school-exp801.c&#10;&#10;Finish the data convert without using any string related function.&#10;&#10;NO &lt;string.h&gt; , NO &lt;stdlib.h&gt;.&#10;FUCK MSVCRT!" />
-    <option name="LAST_COMMIT_MESSAGE" value="[finish] add : school-exp801.c&#10;&#10;Finish the data convert without using any string related function.&#10;&#10;NO &lt;string.h&gt; , NO &lt;stdlib.h&gt;.&#10;FUCK MSVCRT!" />
+    <MESSAGE value="[finish] add : school-exp801-2.c&#10;&#10;Finish the data convert using the operators.&#10;&#10;core content: (Bitwise AND 2) (Conditional Expression3) (Left Shift1)&#10;&#10;add new file: school-exp802.c&#10;&#10;// TODO: school-exp802.c&#10;// TODO: explain the technical details about school-exp801-2.c" />
+    <option name="LAST_COMMIT_MESSAGE" value="[finish] add : school-exp801-2.c&#10;&#10;Finish the data convert using the operators.&#10;&#10;core content: (Bitwise AND 2) (Conditional Expression3) (Left Shift1)&#10;&#10;add new file: school-exp802.c&#10;&#10;// TODO: school-exp802.c&#10;// TODO: explain the technical details about school-exp801-2.c" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1558,16 +1533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp801.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#750#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/charcode.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1575,37 +1540,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
-          <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
     <entry file="file://$PROJECT_DIR$/school-temp.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/school-exp801-2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="338">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="e#0#750#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp801.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#750#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
