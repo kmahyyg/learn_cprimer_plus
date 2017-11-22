@@ -20,3 +20,28 @@
 // Created by Yyg on 11/20/2017.
 // Description: Stat of multiple-line strings
 
+#include <stdio.h>
+
+#define INSIDE 1
+#define OUTSIDE 0
+
+int main(void) {
+    int loadin, lineno, wordno, charno, status;
+    status = OUTSIDE;
+    lineno = wordno = charno = 0;
+    while ((loadin = getchar()) != EOF) {
+        ++charno;
+        if (loadin == '\n') {
+            ++lineno;
+        }
+        if (loadin == ' ' || loadin == '\n' || loadin == '\t') {
+            status = OUTSIDE;
+        } else if (status == OUTSIDE) {
+            status = INSIDE;
+            ++wordno;
+        }
+    }
+    printf("Line: %d, Word: %d, Charno: %d .", lineno, wordno, charno);
+    getchar();
+    return 0;
+}
