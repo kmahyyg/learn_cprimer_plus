@@ -9,11 +9,11 @@
       <config projectName="cprimeplus" targetName="exp302" />
       <config projectName="cprimeplus" targetName="schoolexp504" />
       <config projectName="cprimeplus" targetName="schoolexp503" />
-      <config projectName="cprimeplus" targetName="schoolexp502" />
-      <config projectName="cprimeplus" targetName="schoolexp501" />
       <config projectName="cprimeplus" targetName="schoolexp2" />
+      <config projectName="cprimeplus" targetName="schoolexp501" />
+      <config projectName="cprimeplus" targetName="schoolexp502" />
       <config projectName="cprimeplus" targetName="exp207" />
-      <config projectName="cprimeplus" targetName="exp301" />
+      <config projectName="cprimeplus" targetName="exp206" />
       <config projectName="cprimeplus" targetName="exp205" />
       <config projectName="cprimeplus" targetName="schoolexp812" />
       <config projectName="cprimeplus" targetName="schoolexp405" />
@@ -22,31 +22,32 @@
       <config projectName="cprimeplus" targetName="schoolexp402" />
       <config projectName="cprimeplus" targetName="schoolexp401" />
       <config projectName="cprimeplus" targetName="testbeep" />
-      <config projectName="cprimeplus" targetName="schoolexp201" />
+      <config projectName="cprimeplus" targetName="schoolexp703" />
+      <config projectName="cprimeplus" targetName="exp301" />
       <config projectName="cprimeplus" targetName="exp102" />
       <config projectName="cprimeplus" targetName="exp348" />
       <config projectName="cprimeplus" targetName="exp347" />
       <config projectName="cprimeplus" targetName="exp346" />
       <config projectName="cprimeplus" targetName="exp345" />
       <config projectName="cprimeplus" targetName="exp344" />
+      <config projectName="cprimeplus" targetName="exp403" />
       <config projectName="cprimeplus" targetName="exp342" />
-      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="TEMPBUILD" />
-      <config projectName="cprimeplus" targetName="schoolexp802" />
+      <config projectName="cprimeplus" targetName="schoolexp803" />
+      <config projectName="cprimeplus" targetName="schoolexp201" />
       <config projectName="cprimeplus" targetName="schoolexp801" />
-      <config projectName="cprimeplus" targetName="exp201" />
       <config projectName="cprimeplus" targetName="geekl102" />
       <config projectName="cprimeplus" targetName="exp362" />
       <config projectName="cprimeplus" targetName="exp361" />
       <config projectName="cprimeplus" targetName="geekl103" />
       <config projectName="cprimeplus" targetName="schoolexp704" />
-      <config projectName="cprimeplus" targetName="schoolexp703" />
+      <config projectName="cprimeplus" targetName="geekl101" />
       <config projectName="cprimeplus" targetName="schoolexp702" />
       <config projectName="cprimeplus" targetName="schoolexp701" />
       <config projectName="cprimeplus" targetName="schoolexp3" />
       <config projectName="cprimeplus" targetName="hworld" />
-      <config projectName="cprimeplus" targetName="exp206" />
-      <config projectName="cprimeplus" targetName="exp403" />
+      <config projectName="cprimeplus" targetName="exp201" />
+      <config projectName="cprimeplus" targetName="schoolexp802" />
       <config projectName="cprimeplus" targetName="exp402" />
       <config projectName="cprimeplus" targetName="exp401" />
     </generated>
@@ -59,7 +60,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0569010f-fa7d-46b5-b022-aca02d20698f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/school-exp802.c" afterPath="$PROJECT_DIR$/school-exp802.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="294">
-      <file leaf-file-name="school-exp802.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="school-exp802.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school-exp802.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="364">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding>
                 <element signature="e#0#750#0" expanded="false" />
               </folding>
@@ -93,11 +94,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="school-exp803.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/school-exp803.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="676">
+              <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="-102">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -147,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/platinum.c" />
         <option value="$PROJECT_DIR$/practice_c2_3.c" />
         <option value="$PROJECT_DIR$/helloworld.c" />
         <option value="$PROJECT_DIR$/geekunion1.c" />
@@ -194,10 +204,11 @@
         <option value="$PROJECT_DIR$/school-exp504.c" />
         <option value="$PROJECT_DIR$/school-exp704.c" />
         <option value="$PROJECT_DIR$/school-exp801.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/school-temp.c" />
         <option value="$PROJECT_DIR$/school-exp801-2.c" />
         <option value="$PROJECT_DIR$/school-exp802.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/school-exp803.c" />
       </list>
     </option>
   </component>
@@ -207,7 +218,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="702" />
     <option name="y" value="33" />
     <option name="width" value="1217" />
@@ -465,13 +476,16 @@
     <configuration name="schoolexp802" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="schoolexp802" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="schoolexp802">
       <envs />
     </configuration>
+    <configuration name="schoolexp803" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="schoolexp803" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="schoolexp803">
+      <envs />
+    </configuration>
     <configuration name="schoolexp812" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="hello" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="schoolexp812" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="schoolexp812">
       <envs />
     </configuration>
     <configuration name="testbeep" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cprimeplus" TARGET_NAME="testbeep" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cprimeplus" RUN_TARGET_NAME="testbeep">
       <envs />
     </configuration>
-    <list size="48">
+    <list size="49">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.exp102" />
       <item index="2" class="java.lang.String" itemvalue="Application.exp201" />
@@ -517,9 +531,10 @@
       <item index="42" class="java.lang.String" itemvalue="Application.schoolexp704" />
       <item index="43" class="java.lang.String" itemvalue="Application.schoolexp801" />
       <item index="44" class="java.lang.String" itemvalue="Application.schoolexp802" />
-      <item index="45" class="java.lang.String" itemvalue="Application.schoolexp812" />
-      <item index="46" class="java.lang.String" itemvalue="Application.TEMPBUILD" />
-      <item index="47" class="java.lang.String" itemvalue="Application.testbeep" />
+      <item index="45" class="java.lang.String" itemvalue="Application.schoolexp803" />
+      <item index="46" class="java.lang.String" itemvalue="Application.schoolexp812" />
+      <item index="47" class="java.lang.String" itemvalue="Application.TEMPBUILD" />
+      <item index="48" class="java.lang.String" itemvalue="Application.testbeep" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -626,14 +641,10 @@
       <workItem from="1511274694432" duration="902000" />
       <workItem from="1511330203175" duration="1389000" />
       <workItem from="1511336497660" duration="453000" />
-      <workItem from="1511337026157" duration="44000" />
-    </task>
-    <task id="LOCAL-00006" summary="Auto Commit&amp;Push : Add learning files">
-      <created>1507550730677</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1507550730677</updated>
+      <workItem from="1511337026157" duration="308000" />
+      <workItem from="1511346256738" duration="2150000" />
+      <workItem from="1511357726269" duration="2363000" />
+      <workItem from="1511362380576" duration="2232000" />
     </task>
     <task id="LOCAL-00007" summary="Auto Commit&amp;Push : Add learning files">
       <created>1507552992682</created>
@@ -971,30 +982,37 @@
       <option name="project" value="LOCAL" />
       <updated>1511274807175</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="[new] Finish : school-exp802.c&#10;&#10;1. TODO : DIFF: include&lt;&gt; or include&quot;&quot;&#10;&#10;2. TODO DIFF: Explain the Code">
+      <created>1511337121132</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1511337121132</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233510000" />
+    <option name="totallyTimeSpent" value="240519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="702" y="33" width="1217" height="1040" extended-state="0" />
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08645833" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883772" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.48546824" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.51776105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6480263" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13821815" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21044134" sideWeight="0.50361943" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47228146" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883772" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1005,23 +1023,23 @@
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29850745" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883772" sideWeight="0.48923573" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.48546824" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21321961" sideWeight="0.51776105" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6503198" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6480263" sideWeight="0.48223898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08645833" sideWeight="0.49638057" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285124" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21044134" sideWeight="0.50361943" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46052632" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47228146" sideWeight="0.4967707" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1032,7 +1050,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Selection Sort algorithm.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 3 of Bubble Sort algorithm.&#10;&#10;TODO : Add timer.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="Add the following files:&#10;&#10;(1) School Experience 7, Question 4 of Binary search algorithm.&#10;&#10;TODO : Add bin-search func.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
     <MESSAGE value="[debug] schoolexp701: fact() data overflow.&#10;&#10;Signed-off-by: Patrick Young &lt;16604643+kmahyyg@users.noreply.github.com&gt;" />
@@ -1057,7 +1074,8 @@
     <MESSAGE value="[finish] add : school-exp801.c&#10;&#10;Finish the data convert without using any string related function.&#10;&#10;NO &lt;string.h&gt; , NO &lt;stdlib.h&gt;.&#10;FUCK MSVCRT!" />
     <MESSAGE value="[finish] add : school-exp801-2.c&#10;&#10;Finish the data convert using the operators.&#10;&#10;core content: (Bitwise AND 2) (Conditional Expression3) (Left Shift1)&#10;&#10;add new file: school-exp802.c&#10;&#10;// TODO: school-exp802.c&#10;// TODO: explain the technical details about school-exp801-2.c" />
     <MESSAGE value="[reference] upload refs and update commit comments&#10;&#10;file: *.docx *.pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="[reference] upload refs and update commit comments&#10;&#10;file: *.docx *.pdf" />
+    <MESSAGE value="[new] Finish : school-exp802.c&#10;&#10;1. TODO : DIFF: include&lt;&gt; or include&quot;&quot;&#10;&#10;2. TODO DIFF: Explain the Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="[new] Finish : school-exp802.c&#10;&#10;1. TODO : DIFF: include&lt;&gt; or include&quot;&quot;&#10;&#10;2. TODO DIFF: Explain the Code" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1263,13 +1281,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/school-exp002-1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build_gcc.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1556,21 +1567,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/school-exp802.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#750#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="-102">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/school-exp802.c">
+    <entry file="file://$PROJECT_DIR$/school-exp803.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#750#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="676">
+          <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
