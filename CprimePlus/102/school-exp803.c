@@ -23,5 +23,26 @@
  * upper-ordered data length,
  * print the line graph */
 
-/* TODO :  :( Unknown how to do */
-/* See Python version here: kmahyyg/learn_py3.git @ Github */
+
+#define __USE_MINGW_ANSI_STDIO 1     // To help solve the warning of fucking msvcrt dll
+
+#include <stdio.h>
+
+#define MAXSTRLENGTH 1025
+
+int main(void) {
+    int stdloadin, charno, lineno = 0;
+    int length[MAXSTRLENGTH];
+    int linerecord[MAXSTRLENGTH];
+    while ((stdloadin = getchar()) != EOF) {
+        ++charno;
+        if (stdloadin == '\n') {
+            linerecord[lineno] = lineno + 1;
+            length[lineno] = charno;
+            ++lineno;
+            charno = 0;
+        }
+    }
+    int swap_tempvar;
+
+}
