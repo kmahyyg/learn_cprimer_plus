@@ -9,10 +9,10 @@
 
 #define MAXLENGTH 1025
 
-void swap(char *num_a, char *num_b) {
-    char temp = *num_b;
-    *num_b = *num_a;
-    *num_a = temp;
+void swap(char *a, char *b) {
+    char temp = *b;
+    *b = *a;
+    *a = temp;
 }         // Item in array swap succuessful example
 
 int main(void) {
