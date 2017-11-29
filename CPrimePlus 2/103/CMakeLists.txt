@@ -4,7 +4,7 @@ project(103)
 set(CMAKE_C_FLAGS "-Wall -Wextra")
 set(CMAKE_C_STANDARD 99)
 
-add_executable(schx01 school-expx01.c)
+add_executable(schx01 school-expx01.c rtartratartsrst.h)
 add_executable(schx03 school-expx03.c)
 add_executable(TEMPBUILD school-temp.c)
 

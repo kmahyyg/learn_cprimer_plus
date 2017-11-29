@@ -2,8 +2,8 @@
 // Created by Yyg on 11/27/2017.
 
 
-#ifndef SWAP_CHAR
-#define SWAP_CHAR
+#ifndef __SWAP_CHAR
+#define __SWAP_CHAR
 void SWAP_CHAR(char *num_a, char *num_b) {
     char temp = *num_b;
     *num_b = *num_a;
@@ -11,8 +11,8 @@ void SWAP_CHAR(char *num_a, char *num_b) {
 }
 #endif //SWAP_CHAR
 
-#ifndef SWAP_INT
-#define SWAP_INT
+#ifndef __SWAP_INT
+#define __SWAP_INT
 void SWAP_INT(int *num_a, int *num_b) {
     int temp = *num_b;
     *num_b = *num_a;
@@ -20,9 +20,9 @@ void SWAP_INT(int *num_a, int *num_b) {
 }
 #endif //SWAP_INT
 
-#ifndef decimalToBinary
-#define decimalToBinary
-long decimalToBinary(long n) {
+#ifndef __decimalToBinary
+#define __decimalToBinary
+long __decimalToBinary(long n) {
     int remainder;
     long binary = 0, i = 1;
     while (n != 0) {
@@ -35,10 +35,10 @@ long decimalToBinary(long n) {
 }
 #endif //decimalToBinary
 
-#ifndef HANOI_T
-#define HANOI_T
+#ifndef __HANOI_T
+#define __HANOI_T
 #include <stdio.h>
-void HANOI_T(int n, char a, char b, char c) {         // From A to C with the help of B
+void __HANOI_T(int n, char a, char b, char c) {         // From A to C with the help of B
     if (n == 1)                                          // 1 Disc? A to C.
     {
         printf("%c-->%c\n", a, c);
@@ -50,8 +50,8 @@ void HANOI_T(int n, char a, char b, char c) {         // From A to C with the he
 }
 #endif //HANOI_T
 
-#ifndef fact_recu
-#define fact_recu
+#ifndef __fact_recu
+#define __fact_recu
 long long fact_recu(int N){
     long result;
     if(N <= 0 || N ==1){
@@ -64,8 +64,8 @@ long long fact_recu(int N){
 }
 #endif //fact_recu
 
-#ifndef fact_iter
-#define fact_iter
+#ifndef __fact_iter
+#define __fact_iter
 long long fact_iter(int N){
     int i;
     long result = 1;
@@ -76,24 +76,24 @@ long long fact_iter(int N){
 }
 #endif //fact_iter
 
-#ifndef combination
-#define combination
-long long combination(int K, int R) {               //C(k,r)= r! / ((r-k)! * k!)
+#ifndef __combination
+#define __combination
+long long __combination(int K, int R) {               //C(k,r)= r! / ((r-k)! * k!)
     long long combined;
     combined = (fact(R)) / (fact(R - K) * fact(K));
     return combined;
 }
 #endif //combination
 
-#ifndef array_bubble_sort
-#define array_bubble_sort
+#ifndef __array_bubble_sort
+#define __array_bubble_sort
 #include <stdio.h>
 void swap(int *num_a, int *num_b) {
     int temp = *num_b;
     *num_b = *num_a;
     *num_a = temp;
 }
-int array_bubble_sort(int *array2) {
+int __array_bubble_sort(int *array2) {
     for (int i = 0; i <= 9; i++) {
         for (int j = 0; j <= 9 - i; j++) {
             if (array2[j] > array2[j + 1]) {
@@ -109,15 +109,15 @@ int array_bubble_sort(int *array2) {
 }
 #endif //array_bubble_sort
 
-#ifndef array_selection_sort
-#define array_selection_sort
+#ifndef __array_selection_sort
+#define __array_selection_sort
 #include <stdio.h>
 void swap(int *num_a, int *num_b) {
     int temp = *num_b;
     *num_b = *num_a;
     *num_a = temp;
 }
-int array_selection_sort(int *array1) {
+int __array_selection_sort(int *array1) {
     for (int i = 0, min = 0; i < 9; i++) {
         min = i;
         for (int j = i + 1; j < 10; j++) {
@@ -135,9 +135,9 @@ int array_selection_sort(int *array1) {
 #endif  //array_selection_sort
 
 
-#ifndef twoD_array_length
-#define twoD_array_length
-int twoD_array_length(char *str1){
+#ifndef __twoD_array_length
+#define __twoD_array_length
+int __twoD_array_length(char *str1){
     size_t arraylen;
     arraylen = strlen(str1);
     int reallength=0;
