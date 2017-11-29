@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+
 
 int twoD_array_length(char *str1){
     size_t arraylen;
