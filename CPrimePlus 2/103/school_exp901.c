@@ -10,7 +10,7 @@ typedef char String[MAXLEN];
 
 double get_and_out(char *str1){
     double rev;
-    gets(str1);
+    fgets(str1,1024,stdin);
     rev=atof(str1);     // strtod() more safely
     return rev;
 }
@@ -34,11 +34,11 @@ int main(void){
     fputs("\n",ftp);
     for (status = 0; status < 3; status++){
         printf("Input the student number:");
-        gets(studentid);      // char *studentid; fgets(studentid,10,stdin);
+        fgets(studentid,20,stdin);      // char *studentid; fgets(studentid,10,stdin);
         fputs("|",ftp);
         wrt_format(studentid,ftp);
         printf("Input the name:");
-        gets(name);
+        fgets(name,100,stdin);
         wrt_format(name,ftp);
         printf("Need grade:");
         grade1_f = get_and_out(grade1);
