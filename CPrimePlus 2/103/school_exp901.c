@@ -32,7 +32,7 @@ int main(void){
     fputs("\n",ftp);
     fputs(spliter,ftp);
     fputs("\n",ftp);
-    for (status = 0; status < 3; status++){
+    for (status = 0; status < 5; status++){
         printf("Input the student number:");
         fgets(studentid,20,stdin);      // char *studentid; fgets(studentid,10,stdin);
         fputs("|",ftp);
