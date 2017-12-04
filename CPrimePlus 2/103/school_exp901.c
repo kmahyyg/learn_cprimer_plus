@@ -23,8 +23,8 @@ void wrt_format(char *str,FILE *fp){
 int main(void){
     FILE *ftp = NULL;
     int status =0;
-    String name,studentid,grade1,grade2,grade3,avggra;
-    double grade1_f,grade2_f,grade3_f,averagegrade_f,sum1=0.00;
+    String name,studentid,grade,avggra;
+    double grade_f,averagegrade_f,sum1=0.00;
     char *sheetheader = "|Student ID No|Name|Grade 1|Grade 2|Grade 3|Average Grade|";
     char *spliter =  "|:-----------:|:--:|:-----:|:-----:|:-----:|:-----------:|";
     ftp = fopen("stud.txt","w+");
@@ -40,18 +40,12 @@ int main(void){
         printf("Input the name:");
         gets(name);
         wrt_format(name,ftp);
-        printf("Need grade:");
-        grade1_f = get_and_out(grade1);
-        wrt_format(grade1,ftp);
-        sum1 += grade1_f;
-        printf("Need grade:");
-        grade2_f = get_and_out(grade2);
-        wrt_format(grade2,ftp);
-        sum1 += grade2_f;
-        printf("Need grade:");
-        grade3_f = get_and_out(grade3);
-        wrt_format(grade3,ftp);
-        sum1 += grade3_f;
+        for (int j = 0; j < 3; ++j) {
+            printf("Need Grade:");
+            grade_f = get_and_out(grade);
+            wrt_format(grade,ftp);
+            sum1 += grade_f;
+        }
         averagegrade_f = sum1 / 3.00;
         gcvt(averagegrade_f,5,avggra);
         fputs(avggra,ftp);
