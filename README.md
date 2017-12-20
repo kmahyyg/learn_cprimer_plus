@@ -1,3 +1,9 @@
+[![GitHub license](https://img.shields.io/github/license/kmahyyg/learn_cprimer_plus.svg)](https://github.com/kmahyyg/learn_cprimer_plus/blob/master/LICENSE)
+
+[![IDE](https://img.shields.io/badge/Proudly%20Using-JetBrains%20Clion-brightgreen.svg)](https://www.jetbrains.com/clion/)
+
+[![WeloveDeepin](https://img.shields.io/badge/Proudly%20Using-Deepin%20Linux-ff69b4.svg)](https://www.deepin.com/archives/1462)
+
 # Source Files of C while learning in YNU
 
 This repository stored the example code of << C Primer Plus >> that I learnt.
@@ -23,17 +29,17 @@ Those source code in 103 is completely compiled using :
 1. Jetbrains CLion IDE on Deepin Linux 15.5 (all latest stable)
 2. 
 ```sh
-kmahyyg@PatrickY:~/Desktop$ cmake --version
+$ cmake --version
 cmake version 3.7.2
 
-kmahyyg@PatrickY:~/Desktop$ gcc --version
+$ gcc --version
 gcc (Debian 6.4.0-2) 6.4.0 20170724
 Copyright (C) 2017 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-kmahyyg@PatrickY:~/Desktop$ screenfetch
-              ............                kmahyyg@PatrickY
+$ screenfetch
+              ............                
           .';;;;;.       .,;,.            OS: Deepin 15.5 unstable
        .,;;;;;;;.       ';;;;;;;.         Kernel: x86_64 Linux 4.9.0-deepin13-amd64
      .;::::::::'     .,::;;,''''',.       Uptime: 7h 34m
