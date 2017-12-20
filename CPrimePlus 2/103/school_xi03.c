@@ -35,8 +35,8 @@ int crt_ct(pNode *pNext, int size) {
         if (headptr == NULL)
             return -1;
         headptr->grade = 0.0;     // write data to initialize
-        headptr->ptrnext = (*pNext)->ptrnext;   // header pointer reserved
-        (*pNext)->ptrnext = headptr;            // then modify
+        headptr->ptrnext = (*pNext)->ptrnext;
+        (*pNext)->ptrnext = headptr;
     }
     return 0;
 }
@@ -128,8 +128,28 @@ void prtstuinfo(struct StudentInfo *stud1) {
     printf("Student Name: %s \n", stud1->name);
 }
 
-void prtstugrade(pNode pNext, int size) {
+float prtstugrade(pNode pNext, int loca) {
+    pNode headptr = NULL;
+    pNode tempptr;
+    headptr = pNext;
+    float retu = 0.0;
+    int m = 0;
 
+    if (loca == 0) {
+        retu = headptr->grade;
+    }
+    while (headptr->ptrnext && m < loca - 1) {
+        headptr = headptr->ptrnext;     // point to the forward-drive node
+        m++;
+    }
+    // judge whether it's legal or not
+    if (!(headptr->ptrnext) || m > loca - 1) {
+        puts("Passed Value: loca is illegal!");
+    } else {
+        tempptr = headptr->ptrnext;     // tempptr to the first element
+        retu = tempptr->grade;
+    }
+    return retu;
 }
 
 int main(void) {
@@ -138,5 +158,12 @@ int main(void) {
     getstuinfo(&allstu[0]);
     crt_ct(&g1, 3);
     getstugrade(g1, 3);
+    prtstuinfo(&allstu[0]);
+    float resu = prtstugrade(g1, 0);
+    printf("Grade1 : %.2f \n", resu);
+    resu = prtstugrade(g1, 1);
+    printf("Grade2: %.2f \n", resu);
+    resu = prtstugrade(g1, 2);
+    printf("Grade3: %.2f \n", resu);
     return 0;
 }
