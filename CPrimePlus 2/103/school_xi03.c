@@ -24,9 +24,9 @@ int crt_ct(pNode *pNext, int size) {
     pNode headptr = NULL;       // define a header pointer
 
     *pNext = (pNode) malloc(sizeof(Node));     // pre-allocate memory
-    // http://blog.csdn.net/lpp0900320123/article/details/20356143
+    /* http://blog.csdn.net/lpp0900320123/article/details/20356143
     // https://www.cnblogs.com/kubixuesheng/p/4057063.html
-    // https://stackoverflow.com/questions/20215534/when-assigning-a-string-to-a-pointer-does-it-reserve-space-memory
+    // https://stackoverflow.com/questions/20215534/when-assigning-a-string-to-a-pointer-does-it-reserve-space-memory  */
     if (*pNext == NULL)          // judge whether it is allocated
         return -1;
     (*pNext)->ptrnext = NULL;     // create chain table
@@ -143,12 +143,8 @@ float prtstugrade(pNode pNext, int loca) {
         m++;
     }
     // judge whether it's legal or not
-    if (!(headptr->ptrnext) || m > loca - 1) {
-        puts("Passed Value: loca is illegal!");
-    } else {
         tempptr = headptr->ptrnext;     // tempptr to the first element
         retu = tempptr->grade;
-    }
     return retu;
 }
 
