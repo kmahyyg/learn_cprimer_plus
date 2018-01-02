@@ -52,5 +52,6 @@ int main(void){
         fputs("| \n",ftp);
         sum1 = 0.00;
     }
+    fclose(ftp);
     return 0;
 }
