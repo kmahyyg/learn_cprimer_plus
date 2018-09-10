@@ -2,7 +2,7 @@
 
 [![IDE](https://img.shields.io/badge/Proudly%20Using-JetBrains%20Clion-brightgreen.svg)](https://www.jetbrains.com/clion/)
 
-[![WeloveDeepin](https://img.shields.io/badge/Proudly%20Using-Deepin%20Linux-ff69b4.svg)](https://www.deepin.com/archives/1462)
+[![WeloveDeepin](https://img.shields.io/badge/Proudly%20Using-Arch%20Linux-ff69b4.svg)](https://www.archlinuxcn.org)
 
 # Source Files of C while learning in YNU
 
