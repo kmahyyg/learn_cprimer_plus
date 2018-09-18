@@ -8,4 +8,6 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
 
 add_executable(helloworld main.c)
 
+add_executable(debuguse dbgusage.c)
 
+add_executable(exp1041 exp1.c)
